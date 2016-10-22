@@ -1,0 +1,330 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+
+.horizontal-padding-n {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/*
+**----Header Section 1----**
+*/
+
+/* Header Social media images*/
+	.top-header {
+	    text-align: center;
+	    background-image: url('http://www.emiratesgraphic.com/wp-content/uploads/2016/05/banner.png');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+	.header-social_media {
+		text-align: right;
+		padding-top: 30px;
+	}
+	.header-social_media img {
+		width: 42px;
+		padding-right: 15px;
+	}
+	.facebook-icon-header {
+		width: 30px !important;
+	}
+
+
+/*Header Backgorund and text*/
+
+.home-header {
+	padding: 180px 0px;
+}
+
+.home-header h1 {
+	font-family: 'Montserrat-Regular';
+	font-size: 101px;
+	line-height: 95px;
+	color: white;
+	margin-bottom: 15px;
+}	
+
+.home-header p { 
+	font-family: 'Nexa Light';
+	font-size: 23px;
+	line-height: 30px;
+	color: white;
+}
+
+.home-header button {
+	width: 250px;
+    border: 3px solid #fff;
+    padding: 7px 0;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: bolder;
+    font-family: 'Montserrat-Regular';
+}
+
+
+
+
+/*
+**----OUR MISSION Section 2----**
+*/
+
+.our-mis_section {
+	padding: 40px 0px;
+}
+
+.our-mis_section h1 {
+	color: #e50011;
+    font-size: 50px;
+    font-family: 'Montserrat-Bold';
+    text-align: left;
+    text-transform: uppercase;
+}
+.our-mis_section p {
+	font-size: 20px;
+    color: #000000;
+    font-family: 'Montserrat-Regular';
+    line-height: 32px;
+}
+.our-mis_section button {
+	width: 160px;
+    border: 3px solid #e50011;
+    padding: 7px 0;
+    text-align: center;
+    margin-top: 25px;
+    background-color: transparent;
+    color: #e50011;
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder;
+}
+
+
+
+
+
+/*
+**----OUR MISSION Section 2----**
+*/
+.home-section3 {
+	text-align: center;
+    background-image: url('../img/E_bg1.jpg');
+    height: 800px;
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+}
+.section3-quote img{
+	padding-bottom: 40px;
+	padding-right: 5px;
+}
+.home-section3 h1{
+	padding-top: 150px;
+	padding-bottom: 30px;
+	color: #fff;
+    text-align: center;
+    font-size: 79px;
+    font-family: 'Montserrat-Bold';
+    margin: 0 auto;
+    line-height: 100px;
+}
+.home-section3 button {
+	background: transparent;
+    border: 3px solid;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out 0s;
+}
+	.section3-icons {
+	padding-top: 50px;
+	}
+
+	.section3-icons h3 {
+		color: white;
+		font-family: 'Montserrat-Bold';
+	}
+.pic1 {
+    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/1.png);
+    background-position: 0 0;
+    width: 168px;
+    height: 182px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin: 0 auto;
+}
+
+.pic2 {
+    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/2.png);
+    background-position: 0 0;
+    width: 168px;
+    height: 182px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin: 0 auto;
+}
+
+.pic3 {
+    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/3.png);
+    background-position: 0 0;
+    width: 168px;
+    height: 182px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin: 0 auto;
+}
+.pic4 {
+    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/4.png);
+    background-position: 0 0;
+    width: 168px;
+    height: 182px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin: 0 auto;
+}
+
+
+
+
+/*
+**----Testimonials Section 3----**
+*/
+
+.testimonials-section {
+	text-align: center;
+    background-image: url('../img/testimonials-bg.png');
+    height: auto;
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.test-panel-h {
+	background-color: white;
+	text-align: center;
+}
+
+.test-panel-h img {
+	padding: 30px 0px; 
+	width: 100px;
+}
+.test-panel-h h4 {
+	font-family: 'Montserrat-Regular';
+	margin-bottom: 0px;
+}
+.test-panel-h span {
+	color: #d0d2d3;
+}
+.test-panel-h p {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.test-panel-v {
+	text-align: left;
+	background-color: white;
+}
+
+.test-panel-v img{
+	width: 100px;
+}
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+	/*Header section*/
+    .home-header {
+	padding: 100px 0px;
+	}
+
+	.home-header h1{
+		font-size: 50px;
+		line-height: 45px;
+	}
+	.home-header p{
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	/*Our Mission*/
+	.our-mis_section {
+	padding: 40px 10px;
+	text-align: center;
+	}
+
+	.our-mis_section h1 {
+		color: #e50011;
+	    font-size: 40px;
+	    font-family: 'Montserrat-Bold';
+	    text-align: left;
+	    text-transform: uppercase;
+	}
+	.our-mis_section p {
+		font-size: 13px;
+	    color: #000000;
+	    font-family: 'Montserrat-Regular';
+	    line-height: 25px;
+	}
+
+
+
+/*
+**----OUR MISSION Section 2----**
+*/
+.home-section3 {
+    padding-bottom: 80px;
+}
+.section3-quote img{
+	display: none;
+}
+.home-section3 h1{
+	padding-top: 90px;
+	padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.home-section3 button {
+    font-size: 20px;
+}
+.section3-icons {
+padding-top: 50px;
+}
+
+.section3-icons h3 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+	font-size: 18px;
+}
+}
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    
+}
