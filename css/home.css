@@ -22,6 +22,10 @@
   src: url('../fonts/Montserrat-Bold.ttf');
  }
 
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
 
 .horizontal-padding-n {
 	padding-right: 0px;
@@ -256,8 +260,58 @@
 .test-panel-v img{
 	width: 100px;
 }
+.horizontal-test-p {
+	padding: 25px;
+}
+
+
+
+
+/*
+**----facts Section 3----**
+*/
+
+.facts-section {
+	text-align: center;
+    background-image: url('../img/facts-bg.png');
+    height: auto;
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.facts-section h4 {
+	padding: 30px 0px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat-Regular';
+}
+
+.facts-section h1 {
+	font-family: 'Montserrat-Regular';
+	font-size: 90px;
+	color: #ff0013;
+	letter-spacing: -7px;
+}
+.facts-section p {
+	padding: 0px 0px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Montserrat-Regular';
+}
+.facts-section span {
+	font-family: 'OpenSans-Light';
+	color: white;
+	font-size: 18px;
+	padding: 0px;
+}
+
+
 /*Only on Mobile*/
 @media only screen and (max-width: 844px) {
+	.mobile-d-n {
+		display: none;
+	}
 	/*Header section*/
     .home-header {
 	padding: 100px 0px;
@@ -324,7 +378,10 @@ padding-top: 50px;
 }
 
 
+
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {
-    
+    .desktop-d-n {
+    	display: none;
+    }
 }
