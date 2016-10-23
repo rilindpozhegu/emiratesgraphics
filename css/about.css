@@ -1,0 +1,259 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
+
+
+
+ /*
+**----Header Section 1----**
+*/
+
+/* Header Social media images*/
+  .top-header {
+      text-align: left;
+      background-image: url('http://www.emiratesgraphic.com/wp-content/uploads/2016/05/1st_img.jpg');
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
+  }
+  .header-social_media {
+    text-align: right;
+    padding-top: 30px;
+  }
+  .header-social_media img {
+    width: 42px;
+    padding-right: 15px;
+  }
+  .facebook-icon-header {
+    width: 30px !important;
+  }
+
+
+/*Header Backgorund and text*/
+
+.services-header {
+  padding: 180px 0px;
+}
+
+.quotes-big {
+    padding: 180px 10px;
+    font-size: 79px;
+    font-family: 'Montserrat-Bold';
+    text-align: left;
+}
+
+.quotes-big i {
+  float: right;
+  color: #e50011;
+    margin-right: 8px;
+}
+
+.services-header h1 {
+  font-family: 'Montserrat-Bold';
+  font-size: 62px;
+  line-height: 70px;
+  color: white;
+  margin-bottom: 15px;
+} 
+
+.services-header p { 
+  font-family: 'Nexa Light';
+  font-size: 23px;
+  line-height: 30px;
+  color: white;
+}
+
+.services-header button {
+  width: 250px;
+    border: 3px solid #fff;
+    padding: 7px 0;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: bolder;
+    font-family: 'Montserrat-Regular';
+}
+
+
+
+
+ /*
+**----Sacha Section ----**
+*/
+
+.sacha-section {
+  text-align: left;
+  background-image: url('../img/windowbg1.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+}
+
+.text-section-sacha {
+  padding-top: 50px;
+  padding-bottom: 140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+.text-section-sacha h1 {
+  font-size: 44px;
+  font-family: 'Montserrat-Bold';
+}
+
+.text-section-sacha span {
+    padding: 10px 0px;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Nexa Light';
+}
+
+.text-section-sacha p {
+    padding: 10px 26px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Montserrat-Bold';
+}
+.text-section-sacha .in-touch {
+  border: solid 3px black;
+  background-color: transparent;
+  color: black;
+  font-family: 'Montserrat-Bold';
+  width: 240px;
+  height: 40px;
+}
+
+.text-section-sacha .social-touch {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border: solid 0px black;
+  background-color: rgba(0, 0, 0, 0.59);
+  color: black;
+}
+.text-section-sacha .social-touch-f img {
+  height: 34px;   
+}
+
+/*
+**----Sacha Section ----**
+*/
+
+.ana-section {
+  text-align: left;
+  background-image: url('../img/3rd_img.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  height: 800px;
+}
+
+
+
+/*
+**----Instagram Section ----**
+*/
+
+.instagram-section {
+  background-color: #060b0f; 
+  text-align: center;
+  color: white;
+}
+.instagram-section-text {
+  padding: 20px 40px 35px 40px; 
+}
+.instagram-section h1 {
+
+  font-family: 'Montserrat-Bold';
+}
+.instagram-section p {
+  font-family: 'Nexa Light';
+  font-size: 24px;
+  padding: 10px 60px; 
+}
+
+
+
+
+.photo_pic {
+    width: 100%;
+    height: auto;
+}
+.b1_1 {
+    width: 25%;
+    height: auto;
+    background: #231f20;
+    float: left;
+    border: 1px solid #fff;
+}
+.b1_1 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*
+**----Sacha Section ----**
+*/
+
+.about-footer {  
+  background-color: #060b0f; 
+  text-align: center;
+  color: white;
+}
+
+.more-am-b {
+  padding: 30px;
+}
+.more-am-b button{
+  font-family: 'Montserrat-Bold';
+  font-size: 17px;
+  height: 50px;
+  width: 270px;
+  background-color: transparent;
+  border: solid 3px white; 
+}
+.more-social-b button{
+  background: white;
+  height: 40px;
+  width: 40px;
+  color: red;
+  border:transparent;
+  border-radius: 50px;
+}
+.more-social-b button i{
+  font-size: 18px;
+}

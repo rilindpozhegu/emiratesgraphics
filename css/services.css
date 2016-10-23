@@ -1,0 +1,230 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
+
+.horizontal-padding-n {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+/*
+**----Header Section 1----**
+*/
+
+/* Header Social media images*/
+	.top-header {
+	    text-align: left;
+	    background-image: url('../img/emi2bann.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+	.header-social_media {
+		text-align: right;
+		padding-top: 30px;
+	}
+	.header-social_media img {
+		width: 42px;
+		padding-right: 15px;
+	}
+	.facebook-icon-header {
+		width: 30px !important;
+	}
+
+
+/*Header Backgorund and text*/
+
+.services-header {
+	padding: 180px 0px;
+}
+.lampa {
+	padding: 180px 10px;
+}
+.lampa img {	
+	float: right;
+	width: 100px;
+}
+
+.services-header h1 {
+	font-family: 'Montserrat-Bold';
+	font-size: 62px;
+	line-height: 70px;
+	color: white;
+	margin-bottom: 15px;
+}	
+
+.services-header p { 
+	font-family: 'Nexa Light';
+	font-size: 23px;
+	line-height: 30px;
+	color: white;
+}
+
+.services-header button {
+	width: 250px;
+    border: 3px solid #fff;
+    padding: 7px 0;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: bolder;
+    font-family: 'Montserrat-Regular';
+}
+
+
+/*
+**----Header Section 2----**
+*/
+
+.section2-services {
+	    text-align: left;
+	    background-image: url('../img/bg22.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+
+/*
+**----Header Section 3----**
+*/
+
+.section3-services {
+	    text-align: left;
+	    background-image: url('../img/bg33.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+
+/*
+**----Header Section 4----**
+*/
+
+.section4-services {
+	    text-align: left;
+	    background-image: url('../img/bg44.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+	.mobile-d-n {
+		display: none;
+	}
+	.lampa {
+	padding: 40px 10px;
+	text-align: center;
+}
+	.lampa img {	
+		float: none;
+	}
+	.services-header {
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+	.services-header h1 {
+	padding: 0px 25px;
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	margin-bottom: 15px;
+	}	
+	.services-header p { 
+	padding: 0px 20px;
+	font-size: 18px;
+	line-height: 20px;
+	color: white;
+}
+.top-header {
+	    text-align: left;
+	    background-image: url('../img/bg1.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+}
+.section2-services {
+	    text-align: left;
+	    background-image: url('../img/bg2.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+	.section3-services {
+	    text-align: left;
+	    background-image: url('../img/bg3.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+.section4-services {
+	    text-align: left;
+	    background-image: url('../img/bg4.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+	.black-c-m {
+		color: black !important; 
+	}
+}
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+    	display: none;
+    }
+}

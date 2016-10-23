@@ -268,7 +268,7 @@
 
 
 /*
-**----facts Section 3----**
+**----facts Section 4----**
 */
 
 .facts-section {
@@ -304,6 +304,67 @@
 	color: white;
 	font-size: 18px;
 	padding: 0px;
+}
+
+
+
+
+
+/*
+**---- Section 5 ----**
+*/
+.starting-o-section {
+	text-align: center;
+	padding: 30px 0px;
+}
+.starting-o-section h3 {
+	font-family: 'Montserrat-Bold';
+	padding: 10px 0px;
+}
+.starting-o-section h4 {
+	font-family: 'Montserrat-Bold';
+	padding: 10px 0px;
+	color: #e50011;
+	font-size: 20px;
+}
+.starting-o-section p {
+	font-size: 15px;
+}
+
+.starting-o-section button {
+	font-size: 15px;
+	font-family: 'Montserrat-Bold';
+	background-color: #e50011;
+	border: none;
+	color: white;
+	width: 160px;
+    height: 36px;
+}
+
+
+
+
+
+/*
+**---- Footer Section 6 the last ----**
+*/
+.footer-section  {
+	background-color: #060b0f;
+	height: auto;
+	color: white;
+}
+.footer-section h3 {
+	font-size: 25px;
+}
+.footer-section .button {
+	text-align: center;
+	padding: 30px 0px;
+}
+.footer-section .button button {
+	border: white solid 3px;
+	background-color: transparent;
+	width: 80%;
+	height: 40px;
 }
 
 
@@ -346,6 +407,44 @@
 	    line-height: 25px;
 	}
 
+/*
+**----facts Section 4----**
+*/
+
+.facts-section {
+	text-align: center;
+    background-image: url('../img/facts-bg.png');
+    height: auto;
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.facts-section h4 {
+	padding: 30px 0px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat-Regular';
+}
+
+.facts-section h1 {
+	font-family: 'Montserrat-Regular';
+	font-size: 40px;
+	color: #ff0013;
+	letter-spacing: -7px;
+}
+.facts-section p {
+	padding: 0px 0px;
+	color: white;
+	font-size: 25px;
+	font-family: 'Montserrat-Regular';
+}
+.facts-section span {
+	font-family: 'OpenSans-Light';
+	color: white;
+	font-size: 18px;
+	padding: 0px;
+}
 
 
 /*
