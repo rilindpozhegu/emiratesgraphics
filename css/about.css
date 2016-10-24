@@ -264,6 +264,7 @@
     .desktop-d-n {
       display: none;
     }
+
 }
 
 /*Only on Mobile*/
@@ -271,5 +272,61 @@
   .mobile-d-n {
     display: none;
   }
-
+    .sacha-section {
+      color: white;
+      background: black;
+      background-image: none;
+    }
+    .text-section-sacha {
+      padding-top: 30px;
+    }
+    .text-section-sacha h1 {
+      color: white;
+    }
+    .text-section-sacha span {
+      color: white;
+    }
+    .text-section-sacha {
+      background-color: transparent;
+      color: white;
+    }
+    .text-section-sacha p {
+      color: white;
+      font-size: 18px;
+    }
+    .text-section-sacha .in-touch {
+    border: solid 3px white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat-Bold';
+    width: 170px;
+    height: 40px;
+  }
+  .ana-section {
+    background-image: none;
+    height: 600px;
+  }
+  .ana-section .text-section-sacha{
+    padding-top: 30px;
+  }
+  .ana-section .text-section-sacha h1{
+    color: black;
+  }
+  .ana-section .text-section-sacha span{
+    color: black;
+  }
+  .ana-section .text-section-sacha p{
+    color: black;
+  }
+  .ana-section .text-section-sacha .in-touch{
+    border: solid 3px black;
+    background-color: transparent;
+    color: black;
+    font-family: 'Montserrat-Bold';
+    width: 170px;
+    height: 40px;
+  }
+  .ana-section .text-section-sacha {
+    padding-bottom: 30px;
+  }
 }
