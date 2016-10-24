@@ -257,3 +257,19 @@
 .more-social-b button i{
   font-size: 18px;
 }
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+
+}

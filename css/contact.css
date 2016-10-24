@@ -1,0 +1,141 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
+
+.horizontal-padding-n {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+/*
+**----Header Section 1----**
+*/
+
+/* Header Social media images*/
+	.top-header {
+	    text-align: center;
+	    background-image: url('../img/c_bann.jpg');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	}
+	.header-social_media {
+		text-align: right;
+		padding-top: 30px;
+	}
+	.header-social_media img {
+		width: 42px;
+		padding-right: 15px;
+	}
+	.facebook-icon-header {
+		width: 30px !important;
+	}
+
+
+/*Header Backgorund and text*/
+
+.contact-header {
+	text-align: center;
+	padding: 50px 0px;
+}
+
+
+.contact-header h1 {
+	font-family: 'Montserrat-Bold';
+	font-size: 90px;
+	line-height: 90px;
+	color: white;
+	margin-bottom: 15px;
+}	
+
+.contact-header p { 
+	font-family: 'Nexa Light';
+	font-size: 23px;
+	line-height: 30px;
+	color: white;
+}
+
+.contact-header button {
+	width: 250px;
+    border: 3px solid #fff;
+    padding: 7px 0;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: bolder;
+    font-family: 'Montserrat-Regular';
+}
+
+.contact-zone {
+	padding: 40px 0px;
+}
+
+.contact-text {
+	padding-top: 20px;
+	color: white;
+	font-family: 'Montserrat-Regular';
+}
+
+.more-social-b {
+	padding-bottom: 30px;
+}
+.more-social-b button{
+  background: white;
+  height: 40px;
+  width: 40px;
+  color: red;
+  border:transparent;
+  border-radius: 50px;
+}
+.more-social-b button i{
+  font-size: 18px;
+}
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+    	display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+	.mobile-d-n {
+		display: none;
+	}
+	.contact-header h1 {
+    font-size: 45px;
+    line-height: 51px;
+  }
+}
