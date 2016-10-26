@@ -37,14 +37,14 @@
 /* Header Social media images*/
   .top-header {
       text-align: left;
-      background-image: url('../img/bg1.png');
+      background-image: url('../img/marbanner-1361x790.png');
       background-repeat: no-repeat;
       -webkit-background-size:cover;
       -moz-background-size:cover;
       -o-background-size:cover;
       background-size:cover;
       background-position:center;
-      height: 800px;
+      height: 850px;
   }
   .header-social_media {
     text-align: right;
@@ -104,47 +104,105 @@
     font-family: 'Montserrat-Regular';
 }
 
+/* Section 2 */
 
-
-/*Portfolio section*/
-.lg_port {
-    width: 100%;
-    height: auto;
-}
-.detailscontainer {
-    width: 85%!important;
-    height: auto;
-    margin: 0 auto;
-}
-.p_red {
-    color: #e71121;
-    font-size: 41px;
-    font-family: MontserratBold;
-}
-.logo_port {
-    margin-top: 70px;
-}
-.p2 {
-    overflow: hidden;
-}
-.logo_port .col-md-4 a {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.p2 img {
-    width: 100%;
-    height: auto;
-    transition: all 0.3s;
-
+.section2 {
+  text-align: center;
 }
 
-.p2:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.5);
+.section2 h1 {
+  font-family: 'Montserrat-Bold';
 }
 
+.sec-panel {
+  padding: 25px 10px;
+}
+
+
+
+
+
+/* Section 3 Testimonials */
+.testimonial-panel {
+  text-align: center;
+  border-right: 2px solid #f3f3f4;
+  border-top: 2px solid #f3f3f4;
+  border-left: 2px solid #f3f3f4;
+}
+
+.testimonial-panel img {
+  padding: 40px 0px 20px 0px;
+}
+
+.testimonial-panel h4 {
+  color: red;
+  font-size: 32px;
+  font-family: 'Montserrat-Regular';
+
+}
+
+.testimonial-panel p {
+  padding-bottom: 10px;
+}
+
+/*Testimonials on moble devices*/
+
+/*Slider ON MOBILE*/
+
+.gallery-cell {
+  width: 75%;
+  height: auto;
+  margin-right: 10px;
+}
+.gallery-cell img {
+  padding: 20px 0px; 
+  width: 100%;
+}
+.flickity-prev-next-button {
+  display: none;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+
+
+/*Section 4 Book*/
+  .section4 {
+      text-align: left;
+      background-image: url('../img/book-marketing-01.png');
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
+      height: 850px;
+      text-align: center;
+  }
+
+.section5 {
+  text-align: center;
+}
+.section5 h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat-Bold';
+}
+.section5 p {
+  padding: 10px 30px;
+  font-size: 18px;
+}
+.section5 button {
+  background-color: #ed1c24;
+  color: white;
+  font-style: 20px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  font-weight: bolder;
+}
 
 /*
 **---- Footer Section 6 the last ----**
@@ -171,8 +229,6 @@
 
 
 
-
-
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {
     .desktop-d-n {
@@ -187,45 +243,29 @@
     display: none;
   }
   .top-header {
-    height: 600px;
+    height:650px;
   }
   .services-header {
-    padding: 0px;
+  padding: 50% 20px;
   }
-  .services-header h1 {
-      font-family: 'Montserrat-Bold';
-      font-size: 57px;
-      line-height: 47px;
-      color: white;
-      margin-bottom: 15px;
+  .quotes-big {
+    padding: 0px 10px;
+    font-size: 79px;
+    font-family: 'Montserrat-Bold';
+    display: none;
+}
+    .section4 {
+      text-align: left;
+      background-image: url('../img/book-marketing-01.png');
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
+      height: 400px;
   }
-    .quotes-big {
-      padding: 30px 10px;
-      font-size: 79px;
-      font-family: 'Montserrat-Bold';
-      text-align: center;
+  .footer-section {
+    text-align: center;
   }
-  .quotes-big i {
-  float: left;
-  color: #e50011;
-    margin-right: 8px;
 }
-.header-section-p {
-  padding: 0px 30px;
-}
-.p2 {
-  margin-top: 0px !important;
-  margin-bottom: 10px;
-}
-.p2 img {
-    width: 100%;
-    height: auto;
-    transition: all 0.3s;
-}
-.logo_port .col-md-4 a {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-}
-

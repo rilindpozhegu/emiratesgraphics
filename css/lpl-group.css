@@ -113,10 +113,10 @@
 .section3 img {
   width: 100%;
 }
+
 .section3 {
   padding-top: 50px;
 }
-
 
 .getfit-footer {
   padding: 30px;
@@ -157,9 +157,15 @@
   .mobile-d-n {
     display: none;
   }
+.title-teddy {
+  padding-bottom: 20px;
+}
 .section1 h1 {
-  font-size: 50px;
+  font-size: 55px;
   line-height: 40px;
+}
+.lpl-g-header {
+  text-align: right !important;
 }
   .getfit-footer button {
   margin: 20px 0px; 

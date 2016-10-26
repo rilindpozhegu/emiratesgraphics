@@ -35,6 +35,25 @@
 **----Header Section 1----**
 */
 
+/*Slider ON MOBILE*/
+
+.gallery-cell {
+  width: 66%;
+  height: auto;
+  margin-right: 10px;
+}
+.gallery-cell img {
+	padding: 20px 0px; 
+	width: 100%;
+}
+.flickity-prev-next-button {
+	display: none;
+}
+
+.flickity-page-dots {
+	display: none;
+}
+
 /* Header Social media images*/
 	.top-header {
 	    text-align: center;
@@ -232,13 +251,12 @@
 }
 
 .test-panel-h {
-	background-color: white;
 	text-align: center;
 }
 
 .test-panel-h img {
 	padding: 30px 0px; 
-	width: 100px;
+	width: 140px;
 }
 .test-panel-h h4 {
 	font-family: 'Montserrat-Regular';
@@ -254,14 +272,21 @@
 
 .test-panel-v {
 	text-align: left;
-	background-color: white;
+}
+.test-panel-v h4 {
+	font-family: 'Montserrat-Regular';
+	margin-bottom: 0px;
+}
+.test-panel-v img{
+	width: 140px;
 }
 
-.test-panel-v img{
-	width: 100px;
+.test-panel-v span {
+	color: #d0d2d3;
+	padding-bottom: 30px;
 }
 .horizontal-test-p {
-	padding: 25px;
+	padding: 3px 30px;
 }
 
 

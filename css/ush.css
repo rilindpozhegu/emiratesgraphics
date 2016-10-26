@@ -113,6 +113,7 @@
 .section3 img {
   width: 100%;
 }
+
 .section3 {
   padding-top: 50px;
 }
@@ -136,7 +137,7 @@
   font-size: 18px;
 }
 .getfit-footer p {
-  color: white; 
+  color: white;   
   font-family: 'OpenSans-Light';
 }
 
@@ -157,9 +158,15 @@
   .mobile-d-n {
     display: none;
   }
+.title-teddy {
+  padding-bottom: 20px;
+}
 .section1 h1 {
   font-size: 50px;
   line-height: 40px;
+}
+.lpl-g-header h1{
+  text-align: center;
 }
   .getfit-footer button {
   margin: 20px 0px; 

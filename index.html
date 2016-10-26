@@ -17,13 +17,37 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
 <!-- Sidebar Code Section  -->
+    <nav>
+        <ul class="cd-primary-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="marketing.html">MARKETING</a></li>
+            <li><a href="#0">FILM MAKING</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="cd-overlay-nav">
+        <span></span>
+    </div> <!-- cd-overlay-nav -->
+
+    <div class="cd-overlay-content">
+        <span></span>
+    </div> <!-- cd-overlay-content -->
+
+    <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
 
 <!-- Header social media Section1 -->
 <header>
@@ -46,6 +70,21 @@
     </div>
 </header>
 
+<!-- Mobile slider Section -->
+<div class="gallery js-flickity desktop-d-n" data-flickity-options='{ "wrapAround": true }'>
+  <div class="gallery-cell">
+      <img src="img/slider-top/logo1_e.png">
+  </div>
+  <div class="gallery-cell">
+      <img src="img/slider-top/logo2_e.png">
+  </div>
+  <div class="gallery-cell">
+      <img src="img/slider-top/logo3_e.png">
+  </div>
+  <div class="gallery-cell">
+      <img src="img/slider-top/logo4_e.png">
+  </div>
+</div>
 
     <!-- OUR MISSION Section -->
     <section class="our-mission-section">
@@ -95,64 +134,104 @@
     </section>
 <div class="clearfix"></div>
     <!-- Testimonials Section -->
-    <section id="services" class="testimonials-section">
+    <section id="services" class="testimonials-section mobile-d-n">
         <div class="container">
             <div class="col-lg-12">
                 <h1>what our dear clients say about us?</h1>
             </div>
             <div class="row">
                 <div class="test-panel-h col-md-3 col-xs-12">
-                    <img src="img/testimonials-avatar.png">
-                    <h4>Sacha Christie</h4>
-                    <span>EMIRATES GRAPHICS</span>
-                    <p>That was the time when I stopped thinking! Great job Emirates</p>
-                </div>
-                <div class="desktop-d-n">
-                    <div class="test-panel-h col-md-3 col-xs-12">
-                        <img src="img/testimonials-avatar.png">
-                        <h4>Sacha Christie</h4>
-                        <span>EMIRATES GRAPHICS</span>
-                        <p>That was the time when I stopped thinking! Great job Emirates</p>
-                    </div>
-                    <div class="test-panel-h col-md-3 col-xs-12">
+                    <div class="row" style="background-color: white">
                         <img src="img/testimonials-avatar.png">
                         <h4>Sacha Christie</h4>
                         <span>EMIRATES GRAPHICS</span>
                         <p>That was the time when I stopped thinking! Great job Emirates</p>
                     </div>
                 </div>
-                <div class="test-panel-v col-md-6 col-xs-12  mobile-d-n">
+                <div class="test-panel-v col-md-6 col-xs-12">
                     <div class="row horizontal-test-p">
-                        <div class="col-md-4 col-xs-4" style="text-align: center;">
-                            <img src="img/testimonials-avatar.png">
-                        </div>
-                        <div class="col-md-8">
-                            <h4>Sacha Christie</h4>
-                            <span>EMIRATES GRAPHICS</span>
-                            <p>That was the time when I stopped thinking! Great job Emirates</p>
+                        <div class="row"  style="background-color: white; padding: 20px;">
+                            <div class="col-md-4 col-xs-4" style="text-align: center;">
+                                <img src="img/testimonials-avatar.png">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Sacha Christie</h4>
+                                <span>EMIRATES GRAPHICS</span>
+                                <p>That was the time when I stopped thinking! Great job Emirates</p>
+                            </div>
                         </div>
                     </div>
                         <div class="clearfix"></div>
                     <div class="row horizontal-test-p">
-                        <div class="col-md-4 col-xs-4" style="text-align: center;">
-                            <img src="img/testimonials-avatar.png">
-                        </div>
-                        <div class="col-md-8">
-                            <h4>Sacha Christie</h4>
-                            <span>EMIRATES GRAPHICS</span>
-                            <p>That was the time when I stopped thinking! Great job Emirates</p>
+                        <div class="row"  style="background-color: white; padding: 20px;">
+                            <div class="col-md-4 col-xs-4" style="text-align: center;">
+                                <img src="img/testimonials-avatar.png">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Sacha Christie</h4>
+                                <span>EMIRATES GRAPHICS</span>
+                                <p>That was the time when I stopped thinking! Great job Emirates</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="test-panel-h col-md-3 col-xs-12">
-                    <img src="img/testimonials-avatar.png">
-                    <h4>Sacha Christie</h4>
-                    <span>EMIRATES GRAPHICS</span>
-                    <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    <div class="row" style="background-color: white">
+                        <img src="img/testimonials-avatar.png">
+                        <h4>Sacha Christie</h4>
+                        <span>EMIRATES GRAPHICS</span>
+                        <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Testimonials on Mobile Only -->
+        <div class="gallery js-flickity desktop-d-n" data-flickity-options='{ "wrapAround": true }'>
+          <div class="gallery-cell">
+              <div class="test-panel-h col-md-3 col-xs-12">
+                    <div class="row" style="background-color: white">
+                        <img src="img/testimonials-avatar.png">
+                        <h4>Sacha Christie</h4>
+                        <span>EMIRATES GRAPHICS</span>
+                        <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    </div>
+                </div>
+          </div>
+          <div class="gallery-cell">
+              <div class="test-panel-h col-md-3 col-xs-12">
+                    <div class="row" style="background-color: white">
+                        <img src="img/testimonials-avatar.png">
+                        <h4>Sacha Christie</h4>
+                        <span>EMIRATES GRAPHICS</span>
+                        <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    </div>
+                </div>
+          </div>
+          <div class="gallery-cell">
+              <div class="test-panel-h col-md-3 col-xs-12">
+                    <div class="row" style="background-color: white">
+                        <img src="img/testimonials-avatar.png">
+                        <h4>Sacha Christie</h4>
+                        <span>EMIRATES GRAPHICS</span>
+                        <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    </div>
+                </div>
+          </div>
+          <div class="gallery-cell">
+              <div class="test-panel-h col-md-3 col-xs-12">
+                    <div class="row" style="background-color: white">
+                        <img src="img/testimonials-avatar.png">
+                        <h4>Sacha Christie</h4>
+                        <span>EMIRATES GRAPHICS</span>
+                        <p>That was the time when I stopped thinking! Great job Emirates</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+        
     <!-- Facts Section -->
     <section class="facts-section">
         <div class="container">
@@ -233,7 +312,12 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 
+
+<!-- Navigationbar Scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/velocity.min.js"></script>
 </body>
 
 </html>

@@ -58,20 +58,21 @@
 }
 .section1 h1 {
   color: #041b1e;
-    font-size: 101px;
+    font-size: 75px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: -6px;
-    text-align: left;
+    text-align: center;
     /* padding-left: 4%; */
-    line-height: 60px;
+    line-height: 65px;
     height: 116px; 
+    letter-spacing: 2px;
 }
 .section1 p {
   padding-top: 10px;
   color: #041b1e;
     font-size: 19px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans-Light';
     line-height: 23px;
     margin-bottom: 15px;
     font-weight: 300;
@@ -90,20 +91,22 @@
 }
 
 .texts2 {
-  padding: 100px 30px;
+  text-align: left;
+  padding: 100px 5px 100px 30px;
 }
 
 .texts2 h1 {
   font-size: 40px;
-  line-height: 35px;
   font-family: 'HelveticaNeueLTStd-Th';
   padding-bottom: 20px;
 }
 
 .texts2 p {
+  font-family: 'OpenSans-Light';
   color: #041b1e;
-    font-size: 14px;
-    margin-bottom: 15px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  line-height: 26px;
 }
 
 
@@ -112,7 +115,9 @@
   width: 100%;
 }
 
-
+.section3 {
+  padding-top: 50px;
+}
 
 .getfit-footer {
   padding: 30px;
@@ -133,6 +138,7 @@
 }
 .getfit-footer p {
   color: white; 
+  font-family: 'OpenSans-Light';
 }
 
 
@@ -153,7 +159,8 @@
     display: none;
   }
 .section1 h1 {
-  font-size: 70px;
+  font-size: 50px;
+  line-height: 40px;
 }
   .getfit-footer button {
   margin: 20px 0px; 

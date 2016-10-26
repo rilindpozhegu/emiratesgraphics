@@ -1,0 +1,218 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
+
+.paddimg-none {
+  padding: 0px;
+}
+
+
+/*
+**----Header Section 1----**
+*/
+
+/* Header Social media images*/
+  .top-header {
+      text-align: left;
+      background-image: url('../img/blog-header-01.png');
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
+      height: 170px;
+  }
+  .header-social_media {
+    text-align: right;
+    padding-top: 30px;
+  }
+  .header-social_media img {
+    width: 42px;
+    padding-right: 15px;
+  }
+  .facebook-icon-header {
+    width: 30px !important;
+  }
+
+/*Icons Style Font Awesome*/
+.social-panel-icons {
+  margin-top: -50px;
+}
+
+.social-panel-icons button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: #e50011;
+  color: white;
+  margin: 0px 5px;
+}
+
+
+
+/* Blog Section Panels*/
+
+.blog-panel {
+  text-align: center;
+  margin: 10px 0px; 
+}
+
+.blogpanel-1 {
+  border: solid 1px #a6a8ab;
+  padding: 10px 0px;
+}
+.blog-panel img {
+  width: 100%;
+  margin-top: -29px;
+}
+
+.text-panel-blog {
+  margin-top: 40px;
+}
+
+.text-panel-blog span{
+  font-family: 'Montserrat-Regular';
+  color: #a6a8ab;
+  font-size: 10px;
+}
+
+.text-panel-blog h5{
+  font-family: 'Montserrat-Regular';
+  color: #e50011;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.text-panel-blog p{
+  color: #a6a8ab;
+  font-size: 15px;
+  font-family: 'Nexa';
+  padding: 0px 10px;
+}
+
+.text-panel-blog img{
+  width: auto;
+}
+
+.text-panel-blog button{
+  margin: 20px 0px;
+  width: 80%;
+  height: 35px;
+  color: #e50011;
+  font-weight: bolder;
+  border: solid 1px #e50011;
+  background-color: transparent;  
+}
+
+/*Right Blog Panels*/
+.right-panel {
+  padding: 10px 20px; 
+}
+.right-panel p {
+  color: #a6a8ab;
+  font-size: 20px;
+  font-family: 'Nexa';
+  padding: 20px 10px;
+}
+
+/*First panel*/
+.first-right_panel {
+  text-align: center;
+  border: solid 1px #a6a8ab;
+}
+.right-panel .social-panel-icons {
+  margin-top: 0px;
+  padding: 30px 0px;
+}
+
+/*Second Panel*/
+.first-right_panel1 {
+  margin-top: 20px;
+  text-align: center;
+  border: solid 1px #a6a8ab;
+}
+
+.small-pnael-img img {
+  width: 100%;
+}
+.small-pnael-img  {
+  padding: 0px;
+}
+.onepanel p {
+  padding: 10px;
+  margin-bottom: 0px;
+  color: #a6a8ab;
+}
+.onepanel p a{
+  text-decoration: none;
+  color: #a6a8ab;
+}
+.onepanel p a:hover{
+  text-decoration: none;
+  color: #a6a8ab;
+}
+.onepanel p a:active{
+  text-decoration: none;
+  color: #a6a8ab;
+}
+
+
+
+
+/*Footer */
+
+.footer-blog {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #e6e7e8;
+  color: #231f20;
+}
+.footer-blog p {
+  padding-top: 5px;
+  font-family: 'Montserrat-Regular';
+}
+
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+}
