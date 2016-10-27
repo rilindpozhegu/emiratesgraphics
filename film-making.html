@@ -19,6 +19,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
 
+    <!-- Galery -->
+    <link rel="stylesheet" type="text/css" href="css/default-skin.css">
+    <link rel="stylesheet" href="css/photoswipe.css"><!-- End Of Galery -->
+
     <link rel="stylesheet" type="text/css" href="css/film-making.css">
 </head>
 
@@ -129,6 +133,133 @@
 <!-- Film Galery -->
 
 
+    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="img/pimg_1.jpg" itemprop="contentUrl" data-size="1024x1024">
+            <div class="col-md-6 padding-none">
+                <img src="img/pimg_1.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;" />
+            </div>    
+            </a>
+            <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="img/pimg_2.jpg" itemprop="contentUrl" data-size="1024x1024">
+            <div class="col-md-6 padding-none" style="margin-top: 25px;">
+                <img src="img/pimg_2.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"/>
+            </div>    
+            </a>
+            <!-- <figcaption itemprop="caption description">Image caption 2</figcaption> -->
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="img/img_3.jpg" itemprop="contentUrl" data-size="1024x768">
+            <div class="col-md-6 padding-none" style="margin-top: -37px;">
+                <img src="img/img_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"/>
+            </div>    
+            </a>
+            <!-- <figcaption itemprop="caption description">Image caption 4</figcaption> -->
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="img/pimg_3.jpg" itemprop="contentUrl" data-size="1024x683">
+            <div class="col-md-6 padding-none" style="margin-top: -350px;">
+                <img src="img/pimg_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"/>
+            </div>    
+            </a>
+            <!-- <figcaption itemprop="caption description">Image caption 3</figcaption> -->
+        </figure>
+
+
+
+
+    </div>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<div class="clearfix"></div>
+
+<footer>
+    <div class="container-fluid footer-film">
+        <div class="col-md-8">
+            <h3>Looking for a new website design, brand development or social marketing? We would love to hear from you!</h3>
+        </div>
+        <div class="col-md-4">
+            <button>GET A FREE QUOTE</button>
+        </div>
+        <div class="col-md-12">
+            <p>© 2016 All Rights Reserved Emirates Graphic</p>
+        </div>
+    </div>
+</footer>
+
+
+
 
 
 
@@ -148,5 +279,17 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/velocity.min.js"></script>
     <script type="text/javascript" src="js/video-iframe.js"></script>
+
+
+<!-- ========GALERY======== -->
+    <!-- Core JS file -->
+    <script src="js/photoswipe.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="js/photoswipe-ui-default.min.js"></script>   
+
+    <!-- Galery Made by Me -->
+    <script type="text/javascript" src="js/galery-g.js"></script>
+
 </body>
 </html>    
