@@ -16,14 +16,40 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
 
+    <link rel="stylesheet" type="text/css" href="css/film-making.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
 <!-- Sidebar Code Section  -->
+    <nav>
+        <ul class="cd-primary-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="marketing.html">MARKETING</a></li>
+            <li><a href="#0">FILM MAKING</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="cd-overlay-nav">
+        <span></span>
+    </div> <!-- cd-overlay-nav -->
+
+    <div class="cd-overlay-content">
+        <span></span>
+    </div> <!-- cd-overlay-content -->
+
+    <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+
 
 <!-- Header social media Section1 -->
 <header>
@@ -37,11 +63,90 @@
 
                 </div>
             </div>
-            <div class="home-header">
-                <h1>MAKE YOUR <br> VISION REALITY</h1>
-                <p>a passionate graphic design firm committed<br> to making your vision a reality</p>
-                <button>VIEW PORTFOLIO</button>
+            <div class="home-header">            
+                <h1><i class="fa fa-quote-left"></i>Filmmaking</h1>
             </div>
         </div>
     </div>
 </header>
+
+<!-- Section 1 -->
+<section class="section1">
+    <div class="container">
+        <img src="img/film-production_icon.png">
+        <h1>film production</h1>
+        <p>Film is a moving motion, and we can also spot it as a moving graphic. We expanded our standards and now provide crews to shoot advertisements, short films, Films, web series etc.. Editing and color correcting each frame is also available in our service</p>
+    </div>
+</section>
+
+
+<!-- Section 2 -->
+<section class="section2">
+    <div class="#">
+        <div class="col-md-6 section2_first_grid">
+            <span>Film</span>
+            <h1>Cavallix Advertisments</h1>
+            <p>These are the two advertisments that I directed for Al khuyool company. We tried to be creative and publish the brand new razor blades ‘ Cavallix’ – The Origin Of Shaving.</p>
+            <button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/loztM844xbg" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">View</button>
+        </div>
+       <div class="col-md-6 section2_second_grid">
+            <span>ADVERTISEMENT</span>
+            <h1>Cavallix Advertisments</h1>
+            <p>These are the two advertisments that I directed for Al khuyool company. We tried to be creative and publish the brand new razor blades ‘ Cavallix’ – The Origin Of Shaving.</p>
+            <button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/uC7mXKR-Gqs" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">View</button>
+        </div>
+    </div>
+</section>
+
+<!-- Video Modal 1  -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">          
+                  <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                  </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+<div class="clearfix"></div>
+
+<section class="section3">
+    <div class="container">
+        <img src="img/photography.png">
+        <h1>photography</h1>
+        <p>Emirates Graphic is delighted to announce photography services to its clients. We can cover any event such as: Prom, weddings, etc.. And we also provide individual services for personal photoshoots.</p>
+    </div>
+</section>
+
+
+<!-- Film Galery -->
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
+
+<!-- Navigationbar Scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/velocity.min.js"></script>
+    <script type="text/javascript" src="js/video-iframe.js"></script>
+</body>
+</html>    

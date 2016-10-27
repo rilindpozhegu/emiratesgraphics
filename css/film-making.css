@@ -1,0 +1,321 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/MOpenSans-Light.ttf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaNeueLTStd-Th';
+  src: url('../fonts/HelveticaNeueLTStd-Th.otf');
+ }
+
+.horizontal-padding-n {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/*
+**----Header Section 1----**
+*/
+
+/*Slider ON MOBILE*/
+
+.gallery-cell {
+  width: 66%;
+  height: auto;
+  margin-right: 10px;
+}
+.gallery-cell img {
+	padding: 20px 0px; 
+	width: 100%;
+}
+.flickity-prev-next-button {
+	display: none;
+}
+
+.flickity-page-dots {
+	display: none;
+}
+
+/* Header Social media images*/
+	.top-header {
+	    text-align: center;
+	    background-image: url('../img/filmbann.png');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	    height: 800px;
+	}
+	.header-social_media {
+		text-align: right;
+		padding-top: 30px;
+	}
+	.header-social_media img {
+		width: 42px;
+		padding-right: 15px;
+	}
+	.facebook-icon-header {
+		width: 30px !important;
+	}
+
+.home-header {
+	padding-top: 20%;
+}
+.home-header h1{
+	font-family: 'Montserrat-Bold';
+	font-size: 75px;
+	color: white;
+}
+
+.home-header h1 i{
+	/*font-family: 'Montserrat-Bold';*/
+	font-size: 79px;
+	color: red;
+}
+
+
+/*Section 1 */
+
+.section1 {
+	text-align: center;
+	padding: 40px 0px;
+}
+.section1 h1 {
+	font-family: 'Montserrat-Regular';
+	font-size: 60px;
+}
+
+.section1 p {
+	font-family: 'HelveticaNeueLTStd-Th';
+	font-size: 25px;
+}
+
+/*Section 2 */
+
+.section2_first_grid {
+	background-image: url('../img/image1.jpg');
+    background-size:cover;
+    text-align: center;
+}
+
+.section2_first_grid span {
+	color: #a7a9ac;
+	font-family: 'Montserrat-Regular';
+	font-size: 15px;
+	padding-top: 30px;
+}
+
+.section2_first_grid h1 {
+	font-size: 50px;
+	font-family: 'Montserrat-Regular';
+	font-weight: 700;
+	color: white;
+}
+
+.section2_first_grid button {
+	background-color: transparent;
+	color: white;
+	width: 165px;
+	height: 35px; 
+	border: solid 2px white;
+	font-family: 'Montserrat-Regular'; 
+	margin: 20px 0px 40px 0px;
+}
+.section2_first_grid button:hover {
+	background-color: white;
+	color: black;
+	width: 165px;
+	height: 35px; 
+	border: solid 2px white;
+	font-family: 'Montserrat-Regular'; 
+	margin: 20px 0px 40px 0px;
+	transition: 0.7s all ease;
+}
+.section2_first_grid p {
+	color: white;
+	font-family: 'HelveticaNeueLTStd-Th';
+	font-size: 20px;
+}
+
+/*Second Grid*/
+
+.section2_second_grid {
+	background-image: url('../img/image2.jpg');
+    background-size:cover;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.section2_second_grid span {
+	color: #a7a9ac;
+	font-family: 'Montserrat-Regular';
+	font-size: 15px;
+	padding-top: 16px;
+}
+
+.section2_second_grid h1 {
+	font-size: 50px;
+	font-family: 'Montserrat-Regular';
+	font-weight: 700;
+	color: white;
+}
+
+.section2_second_grid button {
+	background-color: transparent;
+	color: white;
+	width: 165px;
+	height: 35px; 
+	border: solid 2px white;
+	font-family: 'Montserrat-Regular'; 
+	margin: 20px 0px 40px 0px;
+}
+.section2_second_grid button:hover {
+	background-color: white;
+	color: black;
+	width: 165px;
+	height: 35px; 
+	border: solid 2px white;
+	font-family: 'Montserrat-Regular'; 
+	margin: 20px 0px 40px 0px;
+	transition: 0.7s all ease;
+}
+.section2_second_grid p {
+	color: white;
+	font-family: 'HelveticaNeueLTStd-Th';
+	font-size: 20px;
+}
+
+/*Modal Style on 2nd section*/
+ .close-button {
+    overflow: hidden;
+}
+button.close {
+      font-size: 30px;
+      line-height: 30px;
+      padding: 7px 4px 7px 13px;
+      text-shadow(none);
+      color:white;
+      opacity: 1;
+  }
+
+  span {
+    display: block;
+  }
+      
+	span:hover,
+	span:focus {
+		color: white;
+	outline: none;
+	opacity: 1;
+	}
+  
+  .modal-content {
+    box-shadow: none;
+    background-color: transparent;
+    border: 0;
+    }
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+
+
+/*Section 3*/
+
+
+.section3 {
+	padding: 40px 0px;
+	text-align: center;
+}
+.section3 h1 {
+	font-family: 'Montserrat-Regular';
+	font-size: 60px;
+}
+
+.section3 p {
+	font-family: 'HelveticaNeueLTStd-Th';
+	font-size: 25px;
+}
+
+
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  	.top-header {
+	    text-align: center;
+	    background-image: url('../img/filmbann.png');
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	    background-size:cover;
+	    background-position:center;
+	    height: 500px;
+	}
+
+.home-header h1{
+	font-family: 'Montserrat-Bold';
+	font-size: 50px;
+	color: white;
+}
+
+/*First grid on 2nd section*/
+	.section2_first_grid {
+		background-image: url('../img/image_film.jpg');
+	    background-size:cover;
+	    text-align: center;
+	    background-position:center;
+	}
+	.section2_first_grid h1{
+		font-size: 45px;
+	}
+
+	.section2_second_grid {
+		background-image: url('../img/imag_film2.jpg');
+	    background-size:cover;
+	    background-position:center;
+	    text-align: center;
+	    margin-top: 0px;
+	}
+	.section2_second_grid h1{
+		font-size: 45px;
+	}
+}
