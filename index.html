@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/quote-modal.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -64,7 +65,7 @@
             <div class="home-header">
                 <h1>MAKE YOUR <br> VISION REALITY</h1>
                 <p>a passionate graphic design firm committed<br> to making your vision a reality</p>
-                <button>VIEW PORTFOLIO</button>
+                <button><a href="portfolio.html" style="text-decoration: none; color: white;"> VIEW PORTFOLIO </a> </button>
             </div>
         </div>
     </div>
@@ -318,7 +319,7 @@
                     <h3>Looking for a new website design, brand development or <br>social marketing? We would love to hear from you!</h3>
                 </div>
                 <div class="col-md-5 button">
-                    <button>GET A FREE QUOTE</button>
+                    <button  data-toggle="modal" data-target="#myModal">GET A FREE QUOTE</button>
                 </div>
                 <div class="col-md-12" style="text-align: center;">
                     <p>© Copyright 2016 All Rights Reserved Emirates Graphic</p>
@@ -326,6 +327,64 @@
             </div>
         </div>
     </footer>
+
+<!-- Get a free Quote Modal Popup -->
+<script type="text/javascript">
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+</script>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div> -->
+      <div class="modal-body row">
+        <div class="col-md-6 col-xs-6 brand_grid mobile-d-n">
+            <img src="img/logo1.png">
+            <h1>MAKE <br> YOUR <br>VISION <br>REALITY</h1>
+        </div>
+        <div class="col-md-6 col-xs-12 inputs_grid row">
+            <div class="col-md-12 col-xs-12">
+                <h4>REQUEST A <span>FREE QUOTE</span></h4>
+                <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <input type="email" name="" placeholder="E-mail">
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <input type="password" name="" placeholder="Phone">
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-6 col-xs-6">
+                <input type="text" name="" placeholder="Company name">
+            </div>
+            <div class="col-md-6 col-xs-6 select-grid">
+                <div >
+                  <select required class="chose_service">
+                    <option value="1" class="option-s">Web Design</option>
+                    <option value="2" class="option-s">Branding</option>
+                    <option value="3" class="option-s">App Development</option>
+                    <option value="4" class="option-s">Digital Marketing</option>
+                  </select>
+                </div>
+
+            </div>
+            <div class="col-md-12 col-xs-12 textarea-s">
+                <textarea placeholder="help us understand what you need."></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+                <button>Submit</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

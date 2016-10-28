@@ -42,7 +42,7 @@
   height: auto;
   margin-right: 10px;
 }
-.gallery-cell img {
+/*.gallery-cell img {
 	padding: 20px 0px; 
 	width: 100%;
 	filter: grayscale(100%);
@@ -51,7 +51,7 @@
 .gallery-cell img:hover {
 	filter: grayscale(0%);
 }
-
+*/
 .flickity-prev-next-button {
 	display: none;
 }

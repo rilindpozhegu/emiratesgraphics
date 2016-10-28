@@ -1,0 +1,135 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ /*Modal content*/
+.modal-dialog {
+	width: 55%;
+}
+
+.modal-body {
+	padding: 0px;
+}
+
+ .brand_grid {
+ 	background-image: url('../img/bg_pop.png'); 
+ 	height: auto;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+.brand_grid h1 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+	font-size: 40px;
+	padding-left: 20px;
+}
+ .brand_grid img {
+ 	width: 160px;
+ 	margin: 20px 30px 10px 20px; 
+ }
+
+
+.inputs_grid {
+	padding: 40px 35px 20px 40px;
+}
+.inputs_grid h4 {
+	font-size: 27px;
+	font-family: 'Montserrat-Bold';
+}
+.inputs_grid span {
+	color: red;
+}
+.inputs_grid p {
+	color: #d0d2d3;
+	font-size: 14px;
+	font-family: 'Montserrat-Regular';
+}
+.inputs_grid input {
+	padding: 8px 5px; 
+	border: solid 1px #d0d2d3;
+	border-radius: 5px;
+	width: 100%;
+}
+.inputs_grid textarea {
+	width: 105%;
+	margin-left: 5px;
+	border: solid 1px #d0d2d3;
+	border-radius: 5px;
+	padding: 5px;
+}
+.chose_service {
+	width: 100%;
+	padding: 10px 5px; 
+	border: solid 1px #d0d2d3;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+}
+.select-grid {
+	padding-right: 0px ;
+}
+.chose_service .option-s {
+	background-color: white;
+	color: black;
+}
+.chose_service:active {
+	outline: none;
+}
+.chose_service:focus {
+	outline: none;
+}
+.textarea-s {
+	margin-top: -7px:
+	margin-left:-4px; 
+}
+.inputs_grid button {
+	background-color: #58D68D;
+	color: white;
+	font-size: 15px;
+	font-family: 'Montserrat-Regular';
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+}
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  .modal-dialog {
+	width: 90%;
+	margin: 10px 30px;
+	}
+  .modal-body {
+  	text-align: center;
+  }
+}
