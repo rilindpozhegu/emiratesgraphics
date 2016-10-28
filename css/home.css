@@ -45,7 +45,13 @@
 .gallery-cell img {
 	padding: 20px 0px; 
 	width: 100%;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
+.gallery-cell img:hover {
+	filter: grayscale(0%);
+}
+
 .flickity-prev-next-button {
 	display: none;
 }
@@ -54,10 +60,27 @@
 	display: none;
 }
 
+/*Sponsors On desktop*/
+.sponsors_desktop {
+	text-align: center;
+	margin: 30px 0px 40px 0px;
+}
+.sponsors_desktop img {
+	width: 100%;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+}
+.sponsors_desktop img:hover {
+	filter: grayscale(0%);
+}
+
+
+
+
 /* Header Social media images*/
 	.top-header {
 	    text-align: center;
-	    background-image: url('http://www.emiratesgraphic.com/wp-content/uploads/2016/05/banner.png');
+	    background-image: url('../img/banner.png');
 	    background-repeat: no-repeat;
 	    -webkit-background-size:cover;
 	    -moz-background-size:cover;
@@ -81,7 +104,7 @@
 /*Header Backgorund and text*/
 
 .home-header {
-	padding: 180px 0px;
+	padding: 250px 0px;
 }
 
 .home-header h1 {
@@ -400,7 +423,7 @@
 	}
 	/*Header section*/
     .home-header {
-	padding: 100px 0px;
+	padding: 170px 0px;
 	}
 
 	.home-header h1{
@@ -422,7 +445,7 @@
 		color: #e50011;
 	    font-size: 40px;
 	    font-family: 'Montserrat-Bold';
-	    text-align: left;
+	    text-align: center;
 	    text-transform: uppercase;
 	}
 	.our-mis_section p {
