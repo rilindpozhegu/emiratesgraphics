@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/quote-modal.css">
+
+    <!-- Scroll down button Style -->
+    <link rel="stylesheet" type="text/css" href="css/scroll-down-b.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -57,14 +60,18 @@
             <div class="header-social_media">
                 <div>
                     <a href="https://web.facebook.com/EmiratesGraphic/?fref=ts"><img src="img/social/facebook-social-media.svg" class="facebook-icon-header"></a>
-                    <img src="img/social/twitter-social-media.svg">
+                    <!-- <img src="img/social/twitter-social-media.svg"> -->
                     <a href="https://www.instagram.com/designxemirates/"><img src="img/social/instagram-social-media.svg"></a>
                 </div>
             </div>
             <div class="home-header">
                 <h1>MAKE YOUR <br> VISION REALITY</h1>
                 <p>a passionate graphic design firm committed<br> to making your vision a reality</p>
-                <button><a href="portfolio.html" style="text-decoration: none; color: white;"> VIEW PORTFOLIO </a> </button>
+                <button><a href="portfolio.html"> VIEW PORTFOLIO </a> </button>
+
+            <section id="section05" class="demo col-md-12 smooth">
+                <a href="#section1" class="smooth"><span></span></a>
+            </section>
             </div>
         </div>
     </div>
@@ -73,34 +80,69 @@
 <!-- Mobile slider Section -->
 <div class="gallery js-flickity desktop-d-n" data-flickity-options='{ "wrapAround": true }'>
   <div class="gallery-cell">
-      <img src="img/sponsors/spon-1-01.png">
+      <img src="img/sponsors/spon-1-01.png" class="sponsors_img">
   </div>
   <div class="gallery-cell">
-      <img src="img/sponsors/spon-2-01.png">
+      <img src="img/sponsors/spon-3-01.png" class="sponsors_img">
   </div>
   <div class="gallery-cell">
-      <img src="img/sponsors/spon-3-01.png">
+      <img src="img/sponsors/spon-4-01.png" class="sponsors_img">
   </div>
   <div class="gallery-cell">
-      <img src="img/sponsors/spon-4-01.png">
+      <img src="img/sponsors/spon-5-01.png" class="sponsors_img">
   </div>
   <div class="gallery-cell">
-      <img src="img/sponsors/spon-5-01.png">
+      <img src="img/sponsors/spon-2-01.png" class="sponsors_img">
   </div>
 </div>
 
     <!-- OUR MISSION Section -->
-    <section class="our-mission-section">
+    <section class="our-mission-section" id="section1">
         <div class="container">
             <div class="#">
                 <div class="col-lg-12 our-mis_section">
                     <h1>OUR MISSION</h1>
                     <p>At Emirates Graphic we love to challenge the conventional and we won’t hesitate to push boundaries in order to fulﬁl your vision. Our carefully crafted team of professionals is passionate about helping clients communicate and resonate with their audience using creative, innovative and intelligent problem solving. By implementing eﬀective branding strategies tailored to your needs, our mission is to always produce an end product that successfully tells your story.</p>
-                    <button>SEE HOW</button>
+                    <button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/uC7mXKR-Gqs" data-width="640" data-height="360" data-target="#myModal-video" data-video-fullscreen="">SEE HOW</button>
                 </div>
             </div>
         </div>
     </section>
+
+<!-- Video Modal 1  -->
+    <div class="modal fade" id="myModal-video">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">          
+                  <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                  </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+<!-- Video Modal 1  -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">          
+                  <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                  </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
 <!-- desktop slider Section -->
 <div class="mobile-d-n container">
@@ -215,7 +257,7 @@
     <!-- Testimonials on Mobile Only -->
         <div class="gallery js-flickity desktop-d-n" data-flickity-options='{ "wrapAround": true }'>
           <div class="gallery-cell">
-              <div class="test-panel-h col-md-3 col-xs-12">
+              <div class="test-panel-h col-md-3 col-xs-12 testimonials_img">
                     <div class="row" style="background-color: white">
                         <img src="img/testimonials-avatar.png">
                         <h4>Sacha Christie</h4>
@@ -225,7 +267,7 @@
                 </div>
           </div>
           <div class="gallery-cell">
-              <div class="test-panel-h col-md-3 col-xs-12">
+              <div class="test-panel-h col-md-3 col-xs-12 testimonials_img">
                     <div class="row" style="background-color: white">
                         <img src="img/testimonials-avatar.png">
                         <h4>Sacha Christie</h4>
@@ -235,7 +277,7 @@
                 </div>
           </div>
           <div class="gallery-cell">
-              <div class="test-panel-h col-md-3 col-xs-12">
+              <div class="test-panel-h col-md-3 col-xs-12 testimonials_img">
                     <div class="row" style="background-color: white">
                         <img src="img/testimonials-avatar.png">
                         <h4>Sacha Christie</h4>
@@ -245,7 +287,7 @@
                 </div>
           </div>
           <div class="gallery-cell">
-              <div class="test-panel-h col-md-3 col-xs-12">
+              <div class="test-panel-h col-md-3 col-xs-12 testimonials_img">
                     <div class="row" style="background-color: white">
                         <img src="img/testimonials-avatar.png">
                         <h4>Sacha Christie</h4>
@@ -315,7 +357,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h3>Looking for a new website design, brand development or <br>social marketing? We would love to hear from you!</h3>
+                    <h3>Looking for a new website design, brand development or social marketing? We would love to hear from you!</h3>
                 </div>
                 <div class="col-md-5 button">
                     <button  data-toggle="modal" data-target="#myModal">GET A FREE QUOTE</button>
@@ -350,17 +392,17 @@
                 <h4>REQUEST A <span>FREE QUOTE</span></h4>
                 <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
             </div>
-            <div class="col-md-6 col-xs-6">
+            <div class="col-md-6 col-xs-6 sm-padding">
                 <input type="email" name="" placeholder="E-mail">
             </div>
-            <div class="col-md-6 col-xs-6">
-                <input type="password" name="" placeholder="Phone">
+            <div class="col-md-6 col-xs-6 sm-padding">
+                <input type="text" name="" placeholder="Phone">
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-6 col-xs-6">
+            <div class="col-md-6 col-xs-6 sm-padding">
                 <input type="text" name="" placeholder="Company name">
             </div>
-            <div class="col-md-6 col-xs-6 select-grid">
+            <div class="col-md-6 col-xs-6 select-grid sm-padding">
                 <div >
                   <select required class="chose_service">
                     <option value="1" class="option-s">Web Design</option>
@@ -371,11 +413,11 @@
                 </div>
 
             </div>
-            <div class="col-md-12 col-xs-12 textarea-s">
+            <div class="col-md-12 col-xs-12 textarea-s sm-padding">
                 <textarea placeholder="help us understand what you need."></textarea>
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-12">
+            <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
                 <button>Submit</button>
             </div>
         </div>

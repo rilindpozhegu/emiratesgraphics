@@ -22,6 +22,12 @@
   src: url('../fonts/Montserrat-Bold.ttf');
  }
 
+.sm-padding  {
+	padding: 0px 3px; 
+}
+
+
+
  /*Modal content*/
 .modal-dialog {
 	width: 55%;
@@ -44,7 +50,7 @@
 	padding-left: 20px;
 }
  .brand_grid img {
- 	width: 160px;
+ 	width: 180px;
  	margin: 20px 30px 10px 20px; 
  }
 
@@ -71,12 +77,13 @@
 	width: 100%;
 }
 .inputs_grid textarea {
-	width: 105%;
-	margin-left: 5px;
+	width: 100%;
 	border: solid 1px #d0d2d3;
 	border-radius: 5px;
 	padding: 5px;
 }
+
+.inputs_grid textarea { resize:vertical ; }
 .chose_service {
 	width: 100%;
 	padding: 10px 5px; 
@@ -102,6 +109,10 @@
 	margin-top: -7px:
 	margin-left:-4px; 
 }
+
+.modal_button {
+	padding-top: 30px;
+}
 .inputs_grid button {
 	background-color: #58D68D;
 	color: white;
@@ -112,6 +123,8 @@
 	border-radius: 5px;
 	border: none;
 }
+
+
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {
     .desktop-d-n {
