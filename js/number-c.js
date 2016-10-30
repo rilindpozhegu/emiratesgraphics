@@ -14,7 +14,7 @@
         target.text(floored_number);
       }
     },
-    9400
+    10400
   )
 
    var decimal_places = 0;
@@ -33,7 +33,7 @@
         clients.text(floored_number);
       }
     },
-    19000
+    25000
   ) 
 
    var decimal_places = 0;
@@ -52,7 +52,7 @@
         countries.text(floored_number);
       }
     },
-    15000
+    19000
   ) 
 
    var decimal_places = 0;
@@ -71,5 +71,5 @@
         coffe.text(floored_number);
       }
     },
-    10000
+    15000
   ) 

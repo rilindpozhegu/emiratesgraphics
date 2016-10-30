@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Tab Logo -->
+    <link rel="icon" href="img/es_logo.png">
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
@@ -31,14 +34,14 @@
 <!-- Sidebar Code Section  -->
     <nav>
         <ul class="cd-primary-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="marketing.html">MARKETING</a></li>
-            <li><a href="film-making.html">FILM MAKING</a></li>
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="index.html" class="link">HOME</a></li>
+            <li><a href="about.html" class="link">ABOUT</a></li>
+            <li><a href="services.html" class="link">SERVICES</a></li>
+            <li><a href="marketing.html" class="link">MARKETING</a></li>
+            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
+            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
+            <li><a href="blog.html" class="link">BLOG</a></li>
+            <li><a href="contact.html" class="link">CONTACT US</a></li>
         </ul>
     </nav>
 
@@ -103,46 +106,25 @@
                 <div class="col-lg-12 our-mis_section">
                     <h1>OUR MISSION</h1>
                     <p>At Emirates Graphic we love to challenge the conventional and we won’t hesitate to push boundaries in order to fulﬁl your vision. Our carefully crafted team of professionals is passionate about helping clients communicate and resonate with their audience using creative, innovative and intelligent problem solving. By implementing eﬀective branding strategies tailored to your needs, our mission is to always produce an end product that successfully tells your story.</p>
-                    <button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/uC7mXKR-Gqs" data-width="640" data-height="360" data-target="#myModal-video" data-video-fullscreen="">SEE HOW</button>
+                    <button type="button text-center" data-toggle="modal" data-target="#rilind">SEE MORE</button>
                 </div>
             </div>
         </div>
     </section>
 
-<!-- Video Modal 1  -->
-    <div class="modal fade" id="myModal-video">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">          
-                  <div class="close-button">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  </div>
-                  <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
-                  </div>
-                </div>
+<!-- Modal -->
+<div class="modal fade" id="rilind" >
+  <div class="modal-dialog" role="document" style="margin-top: 90px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="video-container embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ry0ctbJ_kR4" frameborder="0" allowfullscreen></iframe>
+        </div>        
+      </div>
+    </div>
+  </div>
+</div>
 
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-
-<!-- Video Modal 1  -->
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">          
-                  <div class="close-button">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  </div>
-                  <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
-                  </div>
-                </div>
-
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
 <!-- desktop slider Section -->
 <div class="mobile-d-n container">
@@ -173,7 +155,7 @@
                 <div class="col-lg-12 section3-quote">
                     <h1><img src="img/quote.png">let’s make your<br>
                     vision a reality</h1>
-                    <button>LET'S GET IN TOUCH</button>
+                    <button  data-toggle="modal" data-target="#myModal">LET'S GET IN TOUCH</button>
                 </div>
                 <div class="clearfix"></div>
                 <div class="section3-icons horizontal-padding-n ">
@@ -349,7 +331,7 @@
                     <p>Got something important to say? We’ll make sure you Got something important to say? We’ll make sure you get heard. As a full service agency we’ve got the creative guns to produce high-recall ﬂyers, slick, sales spiking brochures, signs, packaging and exhibition displays that ensure you’re the most popular kid in the promotional playground. Our talented designers will create stunning layouts that get you seen whilst our copywriters will craft you a powerful message that’s worth shouting from the rooftops.</p>
                 </div>
             </div>
-            <div class="col-md-12" style="padding-top: 20px;"><button>Guessing How ?</button></div>
+            <!-- <div class="col-md-12" style="padding-top: 20px;"><button>Guessing How ?</button></div> -->
         </div>
     </section>
     <!-- Footer Section -->
@@ -409,6 +391,7 @@
                     <option value="2" class="option-s">Branding</option>
                     <option value="3" class="option-s">App Development</option>
                     <option value="4" class="option-s">Digital Marketing</option>
+                    <option value="5" class="option-s">Film Making</option>
                   </select>
                 </div>
 

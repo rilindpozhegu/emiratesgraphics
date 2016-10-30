@@ -1,3 +1,13 @@
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
 /* -------------------------------- 
 
 Primary style
@@ -22,7 +32,40 @@ Primary style
 
 .cd-primary-nav a {
   color: white;
+  text-decoration: none;  
+  font-family: 'Montserrat-Regular';
+}
+
+.cd-primary-nav a {
+  position: relative;
+  margin: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cd-primary-nav a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 0;
+  background: transparent;
+}
+
+.link:after {
+  transition: width .5s ease,
+  background-color .5s ease, 
+  left .5s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+  left: 0;
+  background: white;
 }
 
 /* -------------------------------- 

@@ -73,7 +73,7 @@
 	    -o-background-size:cover;
 	    background-size:cover;
 	    background-position:center;
-	    height: 800px;
+	    height: 860px;
 	}
 	.header-social_media {
 		text-align: right;
@@ -281,7 +281,7 @@ button.close {
 .footer-film {
 	background-color: #060b0f;
 	height: 140px;
-	margin-top: -70px;
+	/*margin-top: -70px;*/
 	text-align: center;
 	z-index: 999;
 	position: absolute;
@@ -305,6 +305,11 @@ button.close {
 	font-family: 'Montserrat-Bold';
 	font-size: 15px;
 }
+
+
+
+
+
 
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {
@@ -357,5 +362,19 @@ button.close {
 	}
 	.section2_second_grid h1{
 		font-size: 45px;
+	}
+
+	.section1 h1 {
+		font-size: 50px;
+	}
+
+	.section1 img {
+		width: 100px;
+	}
+	.section3 h1 {
+		font-size: 50px;
+	}
+	.section3 img {
+		width: 100px;
 	}
 }
