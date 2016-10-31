@@ -265,7 +265,7 @@ Main components
 }
 .cd-primary-nav a {
   font-size: 26px;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: color 0.2s;
@@ -286,7 +286,7 @@ Main components
     margin: 2em 0;
   }
   .cd-primary-nav a {
-    font-size: 28px;
+    font-size: 40px;
     font-size: 1.75rem;
   }
 }

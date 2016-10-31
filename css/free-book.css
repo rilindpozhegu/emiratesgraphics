@@ -151,9 +151,15 @@
 	color: white;
 	font-family: 'Montserrat-Bold';
 	border-radius: 5px;
+    transition: all 0.5s ease-in-out 0s;	
 }
 
-
+.input-grid-btn button:hover {
+	transition: ease all 0.5s;
+	color:black;
+	border: white 3px solid;
+	background-color: transparent;
+}
 
 /*
 **---- Footer Section 6 the last ----**

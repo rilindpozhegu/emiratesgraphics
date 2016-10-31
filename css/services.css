@@ -98,10 +98,14 @@
     background-color: transparent;
     color: white;
     font-size: bolder;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular';    
+    transition: all 0.4s ease-in-out 0s;
 }
 
-
+.services-header button:hover {
+	color: red;
+	border: 3px solid transparent;
+}
 /*
 **----Header Section 2----**
 */

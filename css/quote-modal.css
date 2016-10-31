@@ -30,7 +30,7 @@
 
  /*Modal content*/
 .modal-dialog {
-	width: 55%;
+	width: 76%;
 }
 
 .modal-body {
@@ -39,19 +39,19 @@
 
  .brand_grid {
  	background-image: url('../img/bg_pop.png'); 
- 	height: auto;
+ 	height: 100%;
  	background-repeat: no-repeat;
  	background-size: cover;
  }
 .brand_grid h1 {
 	color: white;
 	font-family: 'Montserrat-Bold';
-	font-size: 40px;
-	padding-left: 20px;
+	font-size: 50px;
+	padding-left: 60px;
 }
  .brand_grid img {
  	width: 180px;
- 	margin: 20px 30px 10px 20px; 
+ 	margin: 20px 30px 10px 60px; 
  }
 
 
@@ -140,7 +140,7 @@
   }
   .modal-dialog {
 	width: 90%;
-	margin: 10px 30px;
+	margin: 0 auto;
 	}
   .modal-body {
   	text-align: center;

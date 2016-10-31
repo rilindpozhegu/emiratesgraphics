@@ -126,6 +126,16 @@
   background-color: white;
   opacity: 0.8;
   text-align: center;
+  transform: skew(0deg, 1.9deg);
+  margin-bottom: -15px;
+}
+
+.pjerret-none {
+  transform: skew(0deg, 0deg);
+}
+
+.text-section-sacha-f {
+  transform: skew(0deg, -2deg);
 }
 .text-section-sacha h1 {
   font-size: 44px;
@@ -150,10 +160,15 @@
   background-color: transparent;
   color: black;
   font-family: 'Montserrat-Bold';
-  width: 240px;
+  width: 220px;
+  margin: 0px 5px;
   height: 40px;
+  transition: all 0.5s ease-in-out 0s;
 }
-
+.text-section-sacha .in-touch:hover {
+  border-color: rgba(0, 0, 0, 0.33);
+  color: red;
+}
 .text-section-sacha .social-touch {
   border-radius: 50px;
   width: 50px;
@@ -177,7 +192,7 @@
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  height: 720px;
+  height: auto;
 }
 
 
@@ -228,7 +243,10 @@
   transform: scale(1.1);
 }
 
-
+.text-section-sacha-ana {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
 /*
 **----Sacha Section ----**
 */
@@ -249,6 +267,11 @@
   width: 270px;
   background-color: transparent;
   border: solid 3px white; 
+  transition: all 0.5s ease-in-out 0s;
+}
+.more-am-b button:hover {
+  color: red;
+  border: solid 3px transparent;
 }
 .more-social-b button{
   background: white;
@@ -257,6 +280,13 @@
   color: red;
   border:transparent;
   border-radius: 50px;
+  margin: 0px 10px;
+}
+.more-social-b button:active {
+  outline: none;
+}
+.more-social-b button:focus {
+  outline: none;
 }
 .more-social-b button i{
   font-size: 18px;

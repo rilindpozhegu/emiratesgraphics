@@ -119,7 +119,7 @@
 .p_red {
     color: #e71121;
     font-size: 41px;
-    font-family: MontserratBold;
+    font-family: 'Montserrat-Bold';
 }
 .logo_port {
     margin-top: 70px;
@@ -153,10 +153,9 @@
   background-color: #060b0f;
   height: auto;
   color: white;
-  margin-top: 20px;
 }
 .footer-section h3 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .footer-section .button {
   text-align: center;
@@ -166,7 +165,14 @@
   border: white solid 3px;
   background-color: transparent;
   width: 80%;
-  height: 40px;
+  height: 40px; 
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+    transition: all 0.5s ease-in-out 0s;
+}
+.footer-section .button button:hover {
+  color:red;
+  border: transparent 3px solid;
 }
 
 

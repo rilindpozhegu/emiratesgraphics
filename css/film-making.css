@@ -238,7 +238,7 @@ button.close {
 	opacity: 1;
 	}
   
-  .modal-content {
+  .modal-content-video {
     box-shadow: none;
     background-color: transparent;
     border: 0;
@@ -276,35 +276,35 @@ button.close {
 
 
 
-/* Footer */
-
-.footer-film {
+/*
+**---- Footer Section 6 the last ----**
+*/
+.footer-section  {
 	background-color: #060b0f;
-	height: 140px;
-	/*margin-top: -70px;*/
+	height: auto;
+	color: white;
+}
+.footer-section h3 {
+	font-size: 22px;
+}
+.footer-section .button {
 	text-align: center;
-	z-index: 999;
-	position: absolute;
+	padding: 30px 0px;
 }
-.footer-film h3 {
-	color: white;
-	padding: 40px;
-}
-
-.footer-film button {
-	margin: 60px 0px;
-	height: 40px;
-	width:  250px;
-	border: solid 2px white;
+.footer-section .button button {
+	border: white solid 3px;
 	background-color: transparent;
-	color: white;
+	width: 80%;
+	height: 40px;	
+	font-size: 18px;
+	font-family: "Montserrat-Regular";
+    transition: all 0.5s ease-in-out 0s;
+}
+.footer-section .button button:hover {
+	color:red;
+	border: transparent 3px solid;
 }
 
-.footer-film p {
-	color: black;
-	font-family: 'Montserrat-Bold';
-	font-size: 15px;
-}
 
 
 
