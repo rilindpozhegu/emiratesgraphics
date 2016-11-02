@@ -103,8 +103,8 @@
 }
 
 .services-header button:hover {
-	color: red;
-	border: 3px solid transparent;
+	background-color: rgba(255, 255, 255, 0.38);
+	border: solid 3px white;
 }
 /*
 **----Header Section 2----**
@@ -232,3 +232,164 @@
     	display: none;
     }
 }
+
+
+
+
+
+#DIV_1 {
+    bottom: 433px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 152px;
+    left: 75px;
+    position: fixed;
+    right: 1474px;
+    text-size-adjust: 100%;
+    top: 195px;
+    width: 34px;
+    z-index: 999;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 17px 76px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 17px 76px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#DIV_1*/
+
+#UL_2 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 147px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 17px 73.5px;
+    transform-origin: 17px 73.5px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px;
+}/*#UL_2*/
+
+#LI_3, #LI_5, #LI_7 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 30px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 17px 15px;
+    transform-origin: 17px 15px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LI_3, #LI_5, #LI_7*/
+
+#A_4 {
+    background-position: 0px -183px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 30px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: -159984px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(0, 0, 0);
+    perspective-origin: 17px 15px;
+    transform-origin: 17px 15px;
+    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -183px / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    margin: 0px 0px 5px;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_4*/
+
+#A_6 {
+    background-position: 0px -32px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 30px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: -159984px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(0, 0, 0);
+    perspective-origin: 17px 15px;
+    transform-origin: 17px 15px;
+    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -32px / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    margin: 0px 0px 5px;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_6*/
+
+#A_8 {
+    background-position: 0px -59px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 30px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: -159984px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(0, 0, 0);
+    perspective-origin: 17px 15px;
+    transform-origin: 17px 15px;
+    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -59px / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    margin: 0px 0px 5px;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_8*/
+
+#LI_9 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 42px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 17px 21px;
+    transform-origin: 17px 21px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#LI_9*/
+
+#A_10 {
+    background-position: 0px -88px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 42px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: -159984px;
+    text-size-adjust: 100%;
+    width: 34px;
+    column-rule-color: rgb(0, 0, 0);
+    perspective-origin: 17px 21px;
+    transform-origin: 17px 21px;
+    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -88px / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
+    list-style: none outside none;
+    margin: 0px 0px 5px;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_10*/
+

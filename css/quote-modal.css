@@ -27,7 +27,6 @@
 }
 
 
-
  /*Modal content*/
 .modal-dialog {
 	width: 76%;
@@ -48,6 +47,7 @@
 	font-family: 'Montserrat-Bold';
 	font-size: 50px;
 	padding-left: 60px;
+	margin-bottom: 55px;
 }
  .brand_grid img {
  	width: 180px;

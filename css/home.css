@@ -187,8 +187,8 @@
 }
 .our-mis_section button:hover {
 	transition: ease all 0.5s;
-	color:black;
-	border: white 3px solid;
+	color:white;
+	background-color: #e50011;
 }
 .our-mis_section button:active {
 	outline: none;
@@ -234,8 +234,8 @@
     transition: all 0.5s ease-in-out 0s;
 }
 .home-section3 button:hover {
-	color:red;
-	border: transparent 3px solid;
+	background-color: #e50011;
+	border: 3px solid #e50011;
 }
 	.section3-icons {
 	padding-top: 50px;
@@ -246,7 +246,7 @@
 		font-family: 'Montserrat-Bold';
 	}
 .pic1 {
-    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/1.png);
+    background: url(../img/1.png);
     background-position: 0 0;
     width: 168px;
     height: 182px;
@@ -256,7 +256,7 @@
 }
 
 .pic2 {
-    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/2.png);
+    background: url(../img/2.png);
     background-position: 0 0;
     width: 168px;
     height: 182px;
@@ -266,7 +266,7 @@
 }
 
 .pic3 {
-    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/3.png);
+    background: url(../img/3.png);
     background-position: 0 0;
     width: 168px;
     height: 182px;
@@ -275,7 +275,7 @@
     margin: 0 auto;
 }
 .pic4 {
-    background: url(http://www.emiratesgraphics.com/wp-content/uploads/2016/07/4.png);
+    background: url(../img/4.png);
     background-position: 0 0;
     width: 168px;
     height: 182px;
@@ -300,17 +300,47 @@
 /*
 **----Testimonials Section 3----**
 */
-
+.testimonials-grids {
+	padding: 0px 30px;
+}
 .testimonials-section {
 	text-align: center;
-	background-color: rgba(208, 210, 211, 0.07);
-    /*background-image: url('../img/testimonials-bg.png');*/
+    background-image: url('../img/testimonials-bg-01.png');
     height: auto;
     background-size: cover;
     padding-bottom: 80px;
     position: relative;
 }
+.testimonials-section h1 {
+	padding: 30px 0px;
+	font-family: 'Montserrat-Regular';
+}
+/*For Desktop devices*/
+.first-grid-testimonials {
+	background-color: white;
+	margin-top: 70px;
+	border-radius: 20px;
+	padding: 0px 30px;
+}
+.first-grid-testimonials img {
+	padding: 0px 0px 30px 0px; 
+	margin-top: -70px;
+	width: 150px;
+}
+.first-grid-testimonials h4 {
+	font-family: 'Montserrat-Bold';
+}
+.first-grid-testimonials span {
+	color: #d0d2d3;
+	font-family: 'Montserrat-Regular';
+}
+.first-grid-testimonials p {
+	margin: 30px 0px;
+	padding-bottom: 30px;
+	font-family: 'Montserrat-Regular';
+}
 
+/*For mobile devices*/
 .test-panel-h {
 	text-align: center;
 }
@@ -319,18 +349,6 @@
 	padding: 30px 0px; 
 	width: 140px;
 }
-.test-panel-h h4 {
-	font-family: 'Montserrat-Regular';
-	margin-bottom: 0px;
-}
-.test-panel-h span {
-	color: #d0d2d3;
-}
-.test-panel-h p {
-	padding-top: 20px;
-	padding-bottom: 40px;
-}
-
 .test-panel-v {
 	text-align: left;
 }
@@ -359,10 +377,10 @@
 
 .facts-section {
 	text-align: center;
-    background-image: url('../img/facts-bg.png');
+    background-image: url('../img/facts-bg1-01.png');
     height: auto;
     background-size: cover;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     position: relative;
 }
 
@@ -457,8 +475,8 @@
     transition: all 0.5s ease-in-out 0s;
 }
 .footer-section .button button:hover {
-	color:red;
-	border: transparent 3px solid;
+	background-color: #e50011;
+	border: solid 3px #e50011;
 }
 
 
@@ -526,7 +544,7 @@
 
 .facts-section h1 {
 	font-family: 'Montserrat-Regular';
-	font-size: 70px;
+	font-size: 75px;
 	color: #ff0013;
 	letter-spacing: -7px;
 }

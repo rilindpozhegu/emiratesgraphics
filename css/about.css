@@ -166,8 +166,9 @@
   transition: all 0.5s ease-in-out 0s;
 }
 .text-section-sacha .in-touch:hover {
-  border-color: rgba(0, 0, 0, 0.33);
-  color: red;
+  border-color: black;
+  color: white;
+  background-color: black;
 }
 .text-section-sacha .social-touch {
   border-radius: 50px;
@@ -270,8 +271,8 @@
   transition: all 0.5s ease-in-out 0s;
 }
 .more-am-b button:hover {
-  color: red;
-  border: solid 3px transparent;
+  background-color: #e50011;
+  border: solid 3px #e50011;
 }
 .more-social-b button{
   background: white;

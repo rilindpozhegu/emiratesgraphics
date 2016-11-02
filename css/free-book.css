@@ -130,6 +130,7 @@
 	padding: 15px;
 	border-radius: 5px;
 	border: solid 1px #b9c6c5;
+	margin: 10px 0px; 
 }
 
 .input_grid-inp input:focus {
@@ -147,7 +148,7 @@
 	width: 40%;
 	height: 35px;
 	background-color: #ed1c24;
-	border: none;
+	border: solid 3px #ed1c24;
 	color: white;
 	font-family: 'Montserrat-Bold';
 	border-radius: 5px;
@@ -156,8 +157,8 @@
 
 .input-grid-btn button:hover {
 	transition: ease all 0.5s;
-	color:black;
-	border: white 3px solid;
+	color:#ed1c24;
+	border: #ed1c24 3px solid;
 	background-color: transparent;
 }
 
@@ -181,8 +182,12 @@
 	background-color: transparent;
 	width: 80%;
 	height: 40px;
+	transition: all ease-in-out 0.5s;
 }
-
+.footer-section .button button:hover {
+	background-color: #e50011;
+	border: solid 3px #e50011;
+}
 
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {

@@ -94,8 +94,11 @@
     color: white;
     font-size: bolder;
     font-family: 'Montserrat-Regular';
+    transition: ease-in-out all 0.5s;
 }
-
+.contact-header button:hover {
+	background-color: rgba(255, 255, 255, 0.38);
+}
 .contact-zone {
 	padding: 40px 0px;
 }

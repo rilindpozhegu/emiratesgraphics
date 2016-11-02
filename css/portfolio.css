@@ -171,10 +171,9 @@
     transition: all 0.5s ease-in-out 0s;
 }
 .footer-section .button button:hover {
-  color:red;
-  border: transparent 3px solid;
+  background-color: #e50011;
+  border: solid 3px #e50011;
 }
-
 
 
 

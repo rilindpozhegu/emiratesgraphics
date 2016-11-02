@@ -225,9 +225,13 @@
   background-color: transparent;
   width: 80%;
   height: 40px;
+  transition: all ease-in-out 0.5s;
 }
 
-
+.footer-section .button button:hover {
+  background-color: #e50011;
+  border: solid 3px #e50011;
+}
 
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {

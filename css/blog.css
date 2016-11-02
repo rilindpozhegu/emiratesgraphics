@@ -46,7 +46,7 @@
       -o-background-size:cover;
       background-size:cover;
       background-position:center;
-      height: 170px;
+      height: 200px;
   }
   .header-social_media {
     text-align: right;
@@ -129,6 +129,12 @@
   font-weight: bolder;
   border: solid 1px #e50011;
   background-color: transparent;  
+  transition: all ease-in-out 0.5s;
+}
+
+.text-panel-blog button:hover {
+    background-color: #e50011;
+    color: white;
 }
 
 /*Right Blog Panels*/
