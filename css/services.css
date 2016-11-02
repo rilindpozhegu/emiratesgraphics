@@ -248,7 +248,7 @@
     text-size-adjust: 100%;
     top: 195px;
     width: 34px;
-    z-index: 999;
+    z-index: 0 !important;
     column-rule-color: rgb(51, 51, 51);
     perspective-origin: 17px 76px;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -304,7 +304,7 @@
     column-rule-color: rgb(0, 0, 0);
     perspective-origin: 17px 15px;
     transform-origin: 17px 15px;
-    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -183px / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("../img/service-menu-icons.png") no-repeat scroll 0px -183px / auto padding-box border-box;
     border: 0px none rgb(0, 0, 0);
     font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
     list-style: none outside none;
@@ -326,7 +326,7 @@
     column-rule-color: rgb(0, 0, 0);
     perspective-origin: 17px 15px;
     transform-origin: 17px 15px;
-    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -32px / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("../img/service-menu-icons.png") no-repeat scroll 0px -32px / auto padding-box border-box;
     border: 0px none rgb(0, 0, 0);
     font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
     list-style: none outside none;
@@ -348,7 +348,7 @@
     column-rule-color: rgb(0, 0, 0);
     perspective-origin: 17px 15px;
     transform-origin: 17px 15px;
-    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -59px / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("../img/service-menu-icons.png") no-repeat scroll 0px -59px / auto padding-box border-box;
     border: 0px none rgb(0, 0, 0);
     font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
     list-style: none outside none;
@@ -385,7 +385,7 @@
     column-rule-color: rgb(0, 0, 0);
     perspective-origin: 17px 21px;
     transform-origin: 17px 21px;
-    background: rgba(0, 0, 0, 0) url("http://www.emiratesgraphic.com/wp-content/themes/emmirates/images/service-menu-icons.png") no-repeat scroll 0px -88px / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("../img/service-menu-icons.png") no-repeat scroll 0px -88px / auto padding-box border-box;
     border: 0px none rgb(0, 0, 0);
     font: normal normal normal normal 16px / 21px MyriadPro-Regular, Arial;
     list-style: none outside none;
