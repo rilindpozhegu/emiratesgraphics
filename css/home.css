@@ -300,75 +300,35 @@
 /*
 **----Testimonials Section 3----**
 */
-.testimonials-grids {
-	padding: 0px 30px;
-}
-.testimonials-section {
+.desktop_testimonial_slider {
+	padding: 30px;
 	text-align: center;
-    background-image: url('../img/testimonials-bg-01.png');
-    height: auto;
-    background-size: cover;
-    padding-bottom: 80px;
-    position: relative;
 }
-.testimonials-section h1 {
-	padding: 30px 0px;
+.testimonial_panel img {
+	width: 200px;
+	padding-bottom: 40px;
+}
+.testimonial_panel p {
+	color: #808184;
+	font-size: 18px;
 	font-family: 'Montserrat-Regular';
 }
-/*For Desktop devices*/
-.first-grid-testimonials {
-	background-color: white;
-	margin-top: 70px;
-	border-radius: 20px;
-	padding: 0px 30px;
-}
-.first-grid-testimonials img {
-	padding: 0px 0px 30px 0px; 
-	margin-top: -70px;
-	width: 150px;
-}
-.first-grid-testimonials h4 {
+.testimonial_panel h3 {
+	color: #ff001f;
+	font-size: 30px;
 	font-family: 'Montserrat-Bold';
 }
-.first-grid-testimonials span {
-	color: #d0d2d3;
-	font-family: 'Montserrat-Regular';
-}
-.first-grid-testimonials p {
-	margin: 30px 0px;
-	padding-bottom: 30px;
-	font-family: 'Montserrat-Regular';
+.testimonial_panel span {
+	color: #e6e7e8;
 }
 
-/*For mobile devices*/
-.test-panel-h {
+.customNavigation {
 	text-align: center;
 }
-
-.test-panel-h img {
-	padding: 30px 0px; 
-	width: 140px;
+.customNavigation i {
+	color: #ff001f;
+	font-size: 50px;
 }
-.test-panel-v {
-	text-align: left;
-}
-.test-panel-v h4 {
-	font-family: 'Montserrat-Regular';
-	margin-bottom: 0px;
-}
-.test-panel-v img{
-	width: 140px;
-}
-
-.test-panel-v span {
-	color: #d0d2d3;
-	padding-bottom: 30px;
-}
-.horizontal-test-p {
-	padding: 3px 30px;
-}
-
-
 
 
 /*
@@ -377,7 +337,7 @@
 
 .facts-section {
 	text-align: center;
-    background-image: url('../img/facts-bg1-01.png');
+    background-image: url('../img/testimonial-new-bg-01.png');
     height: auto;
     background-size: cover;
     padding-bottom: 100px;
