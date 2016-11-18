@@ -144,7 +144,7 @@
 
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="img/light1.jpg" itemprop="contentUrl" data-size="1024x1024">
-            <div class="col-md-6 padding-none">
+            <div class="col-md-6 col-xs-12 padding-none">
                 <img src="img/pimg_1.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"  class="mobile-d-n"/>
                 <img src="img/light1.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"  class="desktop-d-n"/>
             </div>    
@@ -155,9 +155,9 @@
 
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="img/light2.jpg" itemprop="contentUrl" data-size="1024x1024">
-            <div class="col-md-6 padding-none" style="margin-top: 25px;">
-                <img src="img/pimg_2.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"  class="mobile-d-n"/>
-                <img src="img/light2.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;" class="desktop-d-n" />
+            <div class="col-md-6 col-xs-12 padding-none">
+                <img src="img/pimg_2.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%; margin-top: 25px;"  class="mobile-d-n"/>
+                <img src="img/light2.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%; margin-top: 0px;" class="desktop-d-n" />
             </div>    
             </a>
             <!-- <figcaption itemprop="caption description">Image caption 2</figcaption> -->
@@ -165,8 +165,9 @@
 
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="img/img_3.jpg" itemprop="contentUrl" data-size="1024x768">
-            <div class="col-md-6 padding-none" style="margin-top: -37px;">
-                <img src="img/img_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;"/>
+            <div class="col-md-6 col-xs-12 padding-none" style="margin-top: -37px;">
+                <img src="img/img_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;" class="mobile-d-n" />
+                <img src="img/img_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;" class="desktop-d-n"  />
             </div>    
             </a>
             <!-- <figcaption itemprop="caption description">Image caption 4</figcaption> -->
@@ -174,8 +175,9 @@
 
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="img/pimg_3.jpg" itemprop="contentUrl" data-size="1024x683">
-            <div class="col-md-6 padding-none" style="margin-top: -350px;">
-                <img src="img/pimg_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%; height: 350px;""/>
+            <div class="col-md-6 col-xs-12 padding-none" style="margin-top: -350px;">
+                <img src="img/pimg_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%; height: 350px;" class="mobile-d-n"/>
+                <img src="img/pimg_3.jpg" itemprop="thumbnail" alt="Image description" style="width: 100%;" class="desktop-d-n"/>
             </div>    
             </a>
             <!-- <figcaption itemprop="caption description">Image caption 3</figcaption> -->
@@ -249,6 +251,7 @@
         </div>
 
     </div>
+
 <div class="clearfix"></div>
 
     <!-- Footer Section -->
@@ -256,10 +259,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h3>Looking for a new website design, brand development or social marketing? We would love to hear from you!</h3>
+                    <h3>Looking for a new website design, brand development <br> or social marketing? We would love to hear from you!</h3>
                 </div>
                 <div class="col-md-5 button">
-                    <button  data-toggle="modal" data-target="#myModalr">GET A FREE QUOTE</button>
+                    <button  data-toggle="modal" data-target="#myModalb">GET A FREE QUOTE</button>
                 </div>
                 <div class="col-md-12" style="text-align: center;">
                     <p>© Copyright 2016 All Rights Reserved Emirates Graphic</p>
@@ -270,62 +273,89 @@
 
 <!-- Get a free Quote Modal Popup -->
 <script type="text/javascript">
-    $('#myModalr').on('shown.bs.modal', function () {
+    $('#myModalb').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
 </script>
 <!-- Modal -->
-<div class="modal fade" id="myModalr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModalb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
       </div> -->
       <div class="modal-body row">
-        <div class="col-md-6 col-xs-6 brand_grid mobile-d-n row">
+        <div class="col-md-6 col-xs-6 brand_grid mobile-d-n">
             <img src="img/logo1.png">
             <h1>MAKE <br> YOUR <br>VISION <br>REALITY</h1>
         </div>
         <div class="col-md-6 col-xs-12 inputs_grid row">
             <div class="col-md-12 col-xs-12">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4>REQUEST A <span>FREE QUOTE</span></h4>
                 <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
             </div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="email" name="" placeholder="E-mail">
-            </div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="text" name="" placeholder="Phone">
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="text" name="" placeholder="Company name">
-            </div>
-            <div class="col-md-6 col-xs-6 select-grid sm-padding">
-                <div >
-                  <select required class="chose_service">
-                    <option value="1" class="option-s">Web Design</option>
-                    <option value="2" class="option-s">Branding</option>
-                    <option value="3" class="option-s">App Development</option>
-                    <option value="4" class="option-s">Digital Marketing</option>
-                    <option value="5" class="option-s">Film Making</option>
-                  </select>
+            <form id="my_form" onsubmit="submitForm(); return false;">
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="n" type="email" name="first_name" placeholder="E-mail" required>
                 </div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="p" type="text" name="phone_nr" placeholder="Phone">
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input type="text" name="company_name" placeholder="Company name">
+                </div>
+                <div class="col-md-6 col-xs-6 select-grid sm-padding" style="margin: 10px 0px;">
+                    <div >
+                      <select required class="chose_service">
+                        <option value="1" class="option-s">Web Design</option>
+                        <option value="2" class="option-s">Branding</option>
+                        <option value="3" class="option-s">App Development</option>
+                        <option value="4" class="option-s">Digital Marketing</option>
+                        <option value="5" class="option-s">Film Making</option>
+                      </select>
+                    </div>
 
-            </div>
-            <div class="col-md-12 col-xs-12 textarea-s sm-padding">
-                <textarea placeholder="help us understand what you need."></textarea>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
-                <button>Submit</button>
-            </div>
+                </div>
+                <div class="col-md-12 col-xs-12 textarea-s sm-padding" style="margin: 10px 0px; ">
+                    <textarea placeholder="help us understand what you need." rows="4" name="message" id="m"></textarea>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
+                    <!-- <button type="submit" name="submit" value="Submit form" id="mybtn">Submit</button> -->
+                    <input type="submit" name="submit" value="Submit form" id="mybtn" class="submit_btn"><span id="status"></span></input>
+                </div>
+            </form>
         </div>
       </div>
     </div>
   </div>
 </div>
-
+<script type="text/javascript">
+    function _(id) { return document.getElementById (id); }
+    function submitForm () {
+        _("mybtn").disabled = true;
+        _("status").innerHTML = 'please wait ...';
+        var formdata = new FormData ();
+        formdata.append( "n", _("n").value );
+        formdata.append( "e", _("e").value );
+        formdata.append( "m", _("m").value );
+        var ajax = new XMLHttpRequest ();
+        ajax.open( "POST", "sent_email.php" );
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState == 4 && ajax.status == 200) {
+                if (ajax.respnseText == "success") {
+                    _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>'; 
+                } else {
+                    _("status").innerHTML = ajax.responseText;
+                    _("mybtn").disabled = false;
+                }
+            }
+        }
+        ajax.send( formdata );
+    }
+</script>
 
 
 

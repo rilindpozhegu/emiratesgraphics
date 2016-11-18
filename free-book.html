@@ -92,7 +92,7 @@
         <p><span>and MORE!</span></p>
     </div>
 
-    <div class="col-md-6 row" class="input_grid" >
+    <div class="col-md-6 row" class="input_grid" style="text-align: center;">
         <h4>GET THE EBOOK FOR FREE!</h4>
         <hr width="40%" align="left">
         <p>Subscribe to get full access to our new online marketing guide!</p>
@@ -114,7 +114,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h3>Looking for a new website design, brand development or social marketing? We would love to hear from you!</h3>
+                    <h3>Looking for a new website design, brand development <br> or social marketing? We would love to hear from you!</h3>
                 </div>
                 <div class="col-md-5 button">
                     <button  data-toggle="modal" data-target="#myModal">GET A FREE QUOTE</button>
@@ -137,7 +137,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
       </div> -->
       <div class="modal-body row">
         <div class="col-md-6 col-xs-6 brand_grid mobile-d-n">
@@ -146,43 +146,72 @@
         </div>
         <div class="col-md-6 col-xs-12 inputs_grid row">
             <div class="col-md-12 col-xs-12">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4>REQUEST A <span>FREE QUOTE</span></h4>
                 <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
             </div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="email" name="" placeholder="E-mail">
-            </div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="text" name="" placeholder="Phone">
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-6 col-xs-6 sm-padding">
-                <input type="text" name="" placeholder="Company name">
-            </div>
-            <div class="col-md-6 col-xs-6 select-grid sm-padding">
-                <div >
-                  <select required class="chose_service">
-                    <option value="1" class="option-s">Web Design</option>
-                    <option value="2" class="option-s">Branding</option>
-                    <option value="3" class="option-s">App Development</option>
-                    <option value="4" class="option-s">Digital Marketing</option>
-                    <option value="5" class="option-s">Film Making</option>
-                  </select>
+            <form id="my_form" onsubmit="submitForm(); return false;">
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="n" type="email" name="first_name" placeholder="E-mail" required>
                 </div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="p" type="text" name="phone_nr" placeholder="Phone">
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input type="text" name="company_name" placeholder="Company name">
+                </div>
+                <div class="col-md-6 col-xs-6 select-grid sm-padding" style="margin: 10px 0px;">
+                    <div >
+                      <select required class="chose_service">
+                        <option value="1" class="option-s">Web Design</option>
+                        <option value="2" class="option-s">Branding</option>
+                        <option value="3" class="option-s">App Development</option>
+                        <option value="4" class="option-s">Digital Marketing</option>
+                        <option value="5" class="option-s">Film Making</option>
+                      </select>
+                    </div>
 
-            </div>
-            <div class="col-md-12 col-xs-12 textarea-s sm-padding">
-                <textarea placeholder="help us understand what you need."></textarea>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
-                <button>Submit</button>
-            </div>
+                </div>
+                <div class="col-md-12 col-xs-12 textarea-s sm-padding" style="margin: 10px 0px; ">
+                    <textarea placeholder="help us understand what you need." rows="4" name="message" id="m"></textarea>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
+                    <!-- <button type="submit" name="submit" value="Submit form" id="mybtn">Submit</button> -->
+                    <input type="submit" name="submit" value="Submit form" id="mybtn" class="submit_btn"><span id="status"></span></input>
+                </div>
+            </form>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script type="text/javascript">
+    function _(id) { return document.getElementById (id); }
+    function submitForm () {
+        _("mybtn").disabled = true;
+        _("status").innerHTML = 'please wait ...';
+        var formdata = new FormData ();
+        formdata.append( "n", _("n").value );
+        formdata.append( "e", _("e").value );
+        formdata.append( "m", _("m").value );
+        var ajax = new XMLHttpRequest ();
+        ajax.open( "POST", "sent_email.php" );
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState == 4 && ajax.status == 200) {
+                if (ajax.respnseText == "success") {
+                    _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>'; 
+                } else {
+                    _("status").innerHTML = ajax.responseText;
+                    _("mybtn").disabled = false;
+                }
+            }
+        }
+        ajax.send( formdata );
+    }
+</script>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

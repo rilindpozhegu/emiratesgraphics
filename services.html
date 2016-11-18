@@ -91,7 +91,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-xs-12 lampa">
-                <img src="http://emiratesgraphics.com/wp-content/uploads/2016/05/2.png">
+                <img src="img/services_22-01.png">
             </div>
             <div class="services-header col-md-10 col-xs-12 ">
                 <h1 class="black-c-m">design your favorite website</h1>
@@ -109,7 +109,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-xs-12 lampa">
-                <img src="http://emiratesgraphics.com/wp-content/uploads/2016/05/3.png" style="width: 80px;">
+                <img src="img/services_3.png" style="width: 80px;">
             </div>
             <div class="services-header col-md-10 col-xs-12">
                 <h1>design your favorite application</h1>
@@ -157,37 +157,31 @@
     </ul>
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash,
-        $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-        });
-    });
-});
-</script>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
-
 <!-- Navigationbar Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/velocity.min.js"></script>
 
+
+
+<script type="text/javascript">
+    $('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+</script>
 </body>
 </html>

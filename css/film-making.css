@@ -280,12 +280,14 @@ button.close {
 **---- Footer Section 6 the last ----**
 */
 .footer-section  {
+	padding: 20px 0px;
 	background-color: #060b0f;
 	height: auto;
 	color: white;
 }
 .footer-section h3 {
 	font-size: 22px;
+	font-family: "Montserrat-Regular";
 }
 .footer-section .button {
 	text-align: center;
@@ -304,7 +306,6 @@ button.close {
 	background-color: #e50011;
 	border: solid 3px #e50011;
 }
-
 
 
 

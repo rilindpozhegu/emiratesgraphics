@@ -1,4 +1,4 @@
-/*===========
+.section3-icons h3/*===========
 	Fonts
 ============*/
 
@@ -37,25 +37,25 @@
 
 /*Slider ON MOBILE*/
 
-.gallery-cell {
+.gallery-cell2 {
   width: 80%;
   height: auto;
   margin-right: 10px;
 }
 
-.gallery-cell img {
+.gallery-cell1 img {
 	padding: 20px 0px; 
 	width: 100%;
 }
 
-.gallery-cell .sponsors_img {
+.gallery-cell1 .sponsors_img {
 	padding: 20px 0px; 
 	width: 100%;
 	filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
 
-.gallery-cell .sponsors_img:hover {
+.gallery-cell1 .sponsors_img:hover {
 	filter: grayscale(0%);
 }
 
@@ -174,9 +174,8 @@
 }
 
 .our-mis_section button {
-	width: 160px;
     border: 3px solid #e50011;
-    padding: 7px 0;
+    padding: 7px 20px;
     text-align: center;
     margin-top: 25px;
     background-color: transparent;
@@ -216,19 +215,19 @@
 	padding-bottom: 30px;
 	color: #fff;
     text-align: center;
-    font-size: 79px;
+    font-size: 45px;
     font-family: 'Montserrat-Bold';
     margin: 0 auto;
-    line-height: 100px;
+    /*line-height: 100px;*/
 }
 .home-section3 button {
 	background: transparent;
     border: 3px solid;
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 30px;
-    padding: 10px 25px;
+    padding: 7px 20px;
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-in-out 0s;
@@ -243,6 +242,7 @@
 
 	.section3-icons h3 {
 		color: white;
+		font-size: 20px;
 		font-family: 'Montserrat-Bold';
 	}
 .pic1 {
@@ -342,6 +342,7 @@
     background-size: cover;
     padding-bottom: 100px;
     position: relative;
+    padding-top: 60px;
 }
 
 .facts-section h4 {
@@ -352,11 +353,11 @@
 }
 
 .facts-section h1 {
-	font-family: 'Montserrat-Regular';
+	font-family: 'Montserrat-Bold';
 	font-size: 90px;
 	color: #ff0013;
-	letter-spacing: -7px;
-	font-weight: bold;
+	letter-spacing: -6px;
+	/*font-weight: bold;*/
 }
 .facts-section p {
 	padding: 0px 0px;
@@ -365,7 +366,7 @@
 	font-family: 'Montserrat-Regular';
 }
 .facts-section span {
-	font-family: 'OpenSans-Light';
+	font-family: 'Montserrat-Regular';
 	color: white;
 	font-size: 18px;
 	padding: 0px;
@@ -380,7 +381,10 @@
 */
 .starting-o-section {
 	text-align: center;
-	padding: 30px 0px;
+	padding: 60px 0px;
+}
+.starting-o-section-1 {
+	padding: 20px 0px;
 }
 .starting-o-section h3 {
 	font-family: 'Montserrat-Bold';
@@ -414,12 +418,14 @@
 **---- Footer Section 6 the last ----**
 */
 .footer-section  {
+	padding: 20px 0px;
 	background-color: #060b0f;
 	height: auto;
 	color: white;
 }
 .footer-section h3 {
 	font-size: 22px;
+	font-family: "Montserrat-Regular";
 }
 .footer-section .button {
 	text-align: center;
@@ -462,7 +468,7 @@
 
 	/*Our Mission*/
 	.our-mis_section {
-	padding: 40px 10px;
+	padding: 0px 10px 20px;
 	text-align: center;
 	}
 
@@ -554,6 +560,12 @@ padding-top: 50px;
 	font-size: 18px;
 }
 
+
+
+/*Carocel- sponsors*/
+.owl-pagination {
+	display: none;
+}
 }
 
 
@@ -563,4 +575,7 @@ padding-top: 50px;
     .desktop-d-n {
     	display: none;
     }
+    .owl-pagination {
+	display: none;
+}
 }
