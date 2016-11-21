@@ -246,7 +246,7 @@ Main components
   width: 100%;
   padding: 70px 5%;
   z-index: 3;
-  background-color: rgba(229, 0, 17, 0.76); /*ngjyra e backgoroundit te manus kur te hapet*/
+  background-color: rgb(175, 16, 27); /*ngjyra e backgoroundit te menus kur te hapet*/
   overflow: auto;
   /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
   -webkit-overflow-scrolling: touch;
@@ -286,7 +286,7 @@ Main components
     margin: 2em 0;
   }
   .cd-primary-nav a {
-    font-size: 40px;
+    font-size: 10px;
     font-size: 1.75rem;
   }
 }

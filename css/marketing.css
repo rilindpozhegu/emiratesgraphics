@@ -255,14 +255,18 @@
     height:650px;
   }
   .services-header {
-  padding: 50% 20px;
+  padding: 0% 20px;
   }
   .quotes-big {
     padding: 0px 10px;
     font-size: 79px;
     font-family: 'Montserrat-Bold';
-    display: none;
+    /*display: none;*/
 }
+  .quotes-big i {
+    float: left;
+    padding: 20% 20px 0px;
+  }
     .section4 {
       text-align: left;
       background-image: url('../img/book-marketing-01.png');
@@ -273,6 +277,7 @@
       background-size:cover;
       background-position:center;
       height: 400px;
+  }
   }
   .footer-section {
     text-align: center;
