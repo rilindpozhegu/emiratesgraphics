@@ -1,5 +1,5 @@
 /*===========
-	Fonts
+  Fonts
 ============*/
 
 @font-face {
@@ -142,7 +142,7 @@
 .p2:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 

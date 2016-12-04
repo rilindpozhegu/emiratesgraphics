@@ -1,5 +1,5 @@
 /*===========
-	Fonts
+  Fonts
 ============*/
 
 @font-face {
@@ -36,7 +36,7 @@
 /* Header Social media images*/
   .top-header {
       text-align: left;
-      background-image: url('http://www.emiratesgraphic.com/wp-content/uploads/2016/05/1st_img.jpg');
+      background-image: url('../img/1st_img.jpg');
       background-repeat: no-repeat;
       -webkit-background-size:cover;
       -moz-background-size:cover;

@@ -22,7 +22,7 @@
 
   $('#clients').animateNumber(
     {
-      number: 150 * decimal_factor,
+      number: 116 * decimal_factor,
       numberStep: function(now, tween) {
         var floored_number = Math.floor(now) / decimal_factor,
             clients = $(tween.elem);
@@ -41,7 +41,7 @@
 
   $('#countries').animateNumber(
     {
-      number: 56 * decimal_factor,
+      number: 18 * decimal_factor,
       numberStep: function(now, tween) {
         var floored_number = Math.floor(now) / decimal_factor,
             countries = $(tween.elem);
@@ -60,7 +60,7 @@
 
   $('#coffe').animateNumber(
     {
-      number: 1023 * decimal_factor,
+      number: 2023 * decimal_factor,
       numberStep: function(now, tween) {
         var floored_number = Math.floor(now) / decimal_factor,
             coffe = $(tween.elem);
