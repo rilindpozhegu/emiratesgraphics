@@ -22,7 +22,9 @@
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <link rel="stylesheet" type="text/css" href="css/quote-modal.css">    
+    <link rel="stylesheet" type="text/css" href="css/quote-modal.css">  
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">  
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -31,13 +33,14 @@
 <!-- Sidebar Code Section  -->
     <nav>
         <ul class="cd-primary-nav">
-            <li><a href="index.html" class="link">HOME</a></li>
+            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
             <li><a href="about.html" class="link">ABOUT</a></li>
             <li><a href="services.html" class="link">SERVICES</a></li>
             <li><a href="marketing.html" class="link">MARKETING</a></li>
             <li><a href="film-making.html" class="link">FILM MAKING</a></li>
             <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
             <li><a href="blog.html" class="link">BLOG</a></li>
+            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
             <li><a href="contact.html" class="link">CONTACT US</a></li>
         </ul>
     </nav>
@@ -51,7 +54,7 @@
         <span></span>
     </div> <!-- cd-overlay-content -->
 
-    <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 
 <!-- Header, social media Section1 -->
 <header>
@@ -59,39 +62,39 @@
         <div class="container">
             <div class="header-social_media mobile-d-n">
                 <div>
-                    <a href="https://web.facebook.com/EmiratesGraphic/?fref=ts"><img src="img/social/facebook-social-media.svg" class="facebook-icon-header"></a>
+                     <a href="https://web.facebook.com/EmiratesGraphic/?fref=ts"><img src="img/social/facebook-social-media.svg" class="facebook-icon-header wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s"></a>
                     <!-- <img src="img/social/twitter-social-media.svg"> -->
-                    <a href="https://www.instagram.com/designxemirates/"><img src="img/social/instagram-social-media.svg"></a>
+                    <a href="https://www.instagram.com/designxemirates/"><img src="img/social/instagram-social-media.svg"  class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s"></a>
 
                 </div>
             </div>
             <div class="contact-header">
                 <div class="col-md-12 col-xs-12">
-                    <h1>LET’S MAKE <br> YOUR VISION A REALITY</h1>
-                    <p>Looking for a new website design, brand development or <br> social marketing? We would love to hear from you!</p>
-                    <button  data-toggle="modal" data-target="#myModal">GET A FREE QUOTE</button>
+                    <h1 class="wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">LET’S MAKE <br> YOUR VISION A REALITY</h1>
+                    <p class="wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".9s">Looking for a new website design, brand development or <br> social marketing? We would love to hear from you!</p>
+                    <button  data-toggle="modal" data-target="#myModal" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">GET A FREE QUOTE</button>
                 </div> 
             </div>
                 <div class="contact-zone row"> 
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
-                        <img src="img/l_icon.png">
+                        <img src="img/l_icon.png" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
-                            <span>Al Sufouh, Dubai <br>
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Al Sufouh, Dubai <br>
                             United Arab Emirates<br>
                             PO Box 123918-7701</span>
                         </div>
                     </div>  
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
-                        <img src="img/c_icon.PNG">
+                        <img src="img/c_icon.PNG" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
-                            <span>Tel : +372 (546) 05000 <br>
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Tel : +372 (546) 05000 <br>
                             Mob : +971 (050) 912 4567s</span>
                         </div>
                     </div>        
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
-                        <img src="img/email.png">
+                        <img src="img/email.png" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
-                            <span>info@emiratesgraphics.com</span>
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">info@emiratesgraphics.com</span>
                         </div>
                     </div> 
                 </div>
@@ -105,17 +108,21 @@
 </header>
 
 
-<div class="map_section mobile-d-n">
+<div class="map_section mobile-d-n maps">
 
 <p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.326468260487!2d55.14656531452797!3d25.090807842166896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b4555c8b989%3A0xdffe9bff0cbf2bbf!2sEmirates+Graphic!5e0!3m2!1sen!2sin!4v1464585655715" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
+<style type="text/css">
+    .maps iframe{
+    pointer-events: none;
+}
+</style>
 <div class="clearfix"></div>
 </div>
 
 <!-- Footer -->
 <footer>
     <div class="col-md-12" style="color: black; background-color: white; text-align: center;">
-        <h4 style="font-size: 15px;">© 2016 All Rights Reserved Emirates Graphic</h4>
+        <h4 style="font-size: 15px;" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">© 2016 All Rights Reserved Emirates Graphic</h4>
     </div>
 </footer>
 
@@ -189,6 +196,24 @@
 
 <!-- Navigationbar Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/velocity.min.js"></script>      
+    <script type="text/javascript" src="js/velocity.min.js"></script>  
+
+<!-- Animation CSS -->
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+<script type="text/javascript">
+        $('.maps').click(function () {
+            $('.maps iframe').css("pointer-events", "auto");
+        });
+
+        $( ".maps" ).mouseleave(function() {
+          $('.maps iframe').css("pointer-events", "none"); 
+        });
+
+</script>
+    
 </body>
 </html>

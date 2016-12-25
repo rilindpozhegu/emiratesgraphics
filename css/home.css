@@ -1,4 +1,4 @@
-.section3-icons h3/*===========
+/*===========
 	Fonts
 ============*/
 
@@ -149,7 +149,56 @@
 .home-header button:hover {
 	background-color: rgba(255, 255, 255, 0.38);
 }
+/* ---------------- */
+/*    Popup Video   */
+/* ---------------- */
 
+@import "compass/css3";
+
+.page {
+  padding: 15px 0px 0px;
+}
+
+.modalButton {
+  display: block;
+  margin: 15px auto;
+  padding: 5px 15px;
+}
+
+ 
+  .close-button {
+    overflow: hidden;
+    }
+    button.close {
+      font-size: 30px;
+      line-height: 30px;
+      padding: 7px 4px 7px 13px;
+      @include text-shadow(none);
+      @include opacity(.7);
+      color:#fff;
+}
+      span {
+        display: block;
+      }
+      span {
+      &:hover,
+      &:focus 
+        @include opacity(1);
+        outline: none;
+      }
+  
+  .modal-content {
+    box-shadow: none;
+    /*background-color: transparent;*/
+    border: 0;
+    }
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+.modal-dialog-of-video {
+  width: 60%;
+}
 
 /*
 **----OUR MISSION Section 2----**
