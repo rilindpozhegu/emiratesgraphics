@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Emirates Graphics</title>
+    <title>Teddy Bear</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/getfit.css">
+    <link rel="stylesheet" type="text/css" href="css/teddy-bear.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Animate.css -->
@@ -40,31 +40,13 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<?php
+    include('navigation_bar.php');
+?>
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 
 <!-- Header, social media Section1 -->
 <header>
@@ -79,11 +61,11 @@
                 </div>
             </div>
             <div class="row section1">
-                <div class="col-md-6">
-                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Get fit project</h1>
+                <div class="col-md-6 col-xs-12 title-teddy">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Teddy Bear Nurseries</h1>
                 </div>  
                 <div class="col-md-6">
-                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Get Fit Dubai is a platform that connects it’s users to the best personal trainers, gyms and nutritionists in Dubai. This company aims to facilitate the challenges in finding the adequate trainers, gyms and nutritionist most enthusiasts’ experience. </p>
+                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Teddy Bear Nursery is located in Abu Dhabi and was established since 2008 as one of the first children’s day nurseries to provide quality childcare facility in Khalifa City and Al Bateen. The nursery is a well-known leading provider in quality early childhood education for children of the United Arab Emirates.</p>
                 </div>      
             </div>
         </div>
@@ -93,30 +75,30 @@
 
 <section class="section2 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-8">
-        <img src="img/getfit1.jpg" class="img-resonsive">
+        <img src="img/taddybear1.jpg" class="img-resonsive">
     </div>
     <div class="col-md-4 texts2 row">
     <h1>Web design <br> and developement</h1>
-        <p style="margin: 10px 0px; ">The design process we used when creating the Getfit Dubai website started with analysing the user’s needs. The website was made to reflect the company’s values and passion so we took into account the true essence of this innovative platform.</p>
-        <p style="margin: 10px 0px; ">The theme we created for Getfit Dubai emerged from the very essence of their company’s purpose; to promote healthy habits in their community and the undoubtable benefits of continuous physical activity.</p>
+        <p style="margin: 10px 0px; ">Designing the Teddy Bear Nursery website was a real blast. We were happy to be helping such a great nursery stablish an unforgettable online presence and providing them with the necessary tools to keep parents and potential clients well-informed.</p>
+        <p style="margin: 10px 0px; ">Our team of dedicated designers found inspiration on the nursery’s fundamental values when drafting up the website mock-ups. Their whole staff is committed to providing children with a fun, safe and productive preschool environment and that is exactly what the Teddy Bear Nursery website reflects.</p>
     </div>
 </section>
 
-<section class="section3 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s"">
+<section class="section3 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-6 texts2 row">
     <h1>App design <br> and developement</h1>
-        <p>For the Getfit app creation we started by designing a very modern and intuitive mock up, which we tested for customer satisfaction before proceeding to its’ full development.</p>
-        <p>Through this method we ensure that the app will effectively be utilized by its busy customers. The software we developed for Getfit Dubai was also tested to maximise its’ success and operational functions.</p>
+        <p>When designing the Teddy Bear Nursery app we started by keeping in mind its users and its main purpose. The app was designed to be intuitive and simple enough to use daily by the whole family!</p>
+        <p>The functions available on the app were carefully made to effectively maintain an exceptional communication between the nursery staff and the parents. The software we developed for Teddy Bear Nursery was tested multiple time during its development to maximise its’ success and operational functions.</p>
     </div>
     <div class="col-md-6">
-        <img src="img/getfit_phone.png" class="img-resonsive">
+        <img src="img/teddybear_phone.png" class="img-resonsive">
     </div>
 </section>
 
 
-<section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" >
+<section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-12" style="padding: 40px 0px;">
-    <img src="img/bigimage_get-1.png" style="width: 100%;">
+    <img src="img/taddybear_newimg-2.png" style="width: 100%;">
     </div>
 </section>
 
@@ -131,32 +113,16 @@
 
 <section class="section6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" style="padding: 40px 0px;">
     <div class="container">
-        <div class="col-md-12">
-            <img src="img/getfit4.jpg" style="width: 100%;">
-        </div>
-    </div>
-</section>
-
-
-<section class="section7 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <div class="col-md-6">
-        <h1>Stand out. Get your branded email</h1>
-    </div>
-    <div class="col-md-6" style="padding-top: 20px;">
-        <p>A branded email shows the world your company is established and professional. When you have a branded email address along with a creative email template, you’re providing a priceless sense of security and reassurance to your customers that your business is legitimate.</p>
-    </div>
-</section>
-
-<section>
-    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
         <div class="col-md-6">
-            <img src="img/fbgetfit.png" style="width: 100%;">
+            <img src="img/taddybear1-1.jpg" style="width: 100%;">
         </div>
         <div class="col-md-6">
-            <img src="img/fb2.png" style="width: 100%;">
+            <img src="img/taddybear2.jpg" style="width: 100%;">
         </div>
     </div>
 </section>
+
+
 
 <div class="clearfix"></div>
 
@@ -178,8 +144,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
-<!-- Navigationbar Scripts -->
+    <!-- Navigationbar Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/velocity.min.js"></script>
 
@@ -189,6 +154,5 @@
         new WOW().init();
     </script>
 
-    
 </body>
 </html>

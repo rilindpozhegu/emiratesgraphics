@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Tab Logo -->
-    <link rel="icon" href="img/es_logo.png">
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -40,32 +40,12 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+<!-- Navigationbar  -->
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
-
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
-
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+<?php
+    include('navigation_bar.php');
+?>
 
 <!-- Header, social media Section1 -->
 <header>
@@ -102,43 +82,43 @@
                 <div class="windowportfolio">
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <a href="getfit.html"><img src="img/1.jpg" alt="getfit" class="img-responsive" />
+                            <a href="getfit"><img src="img/1.jpg" alt="getfit" class="img-responsive" />
                             </a>
                         </div>
                         <div id="resspace" class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="margin-top: 30px;">
-                            <a href="teddy-bear.html"><img src=" img/7.jpg" alt="teddybear" />
+                            <a href="teddy-bear"><img src=" img/7.jpg" alt="teddybear" />
                             </a>
                         </div>
                         <div id="resspace" class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s" style="margin-top: 30px;">
-                            <a href="utopia.html"><img src=" img/utopia-portfolio-page-01.png" alt="teddybear" />
+                            <a href="utopia"><img src=" img/utopia-portfolio-page-01.png" alt="teddybear" />
                             </a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                            <a href="glamour.html"><img src="img/2.jpg" alt="glamour" />
+                            <a href="glamour"><img src="img/2.jpg" alt="glamour" />
                             </a>
                         </div>
                         <div class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="margin-top: 30px;">
-                            <a href="xxsim.html"><img src="img/4.jpg" alt="xxim" />
+                            <a href="xxsim"><img src="img/4.jpg" alt="xxim" />
                             </a>
                         </div>
                         <div id="resspace" class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="margin-top: 30px;">
-                            <a href="horizon-drone.html"><img src=" img/horizon-portfolio-01.png" alt="teddybear" />
+                            <a href="horizon-drone"><img src=" img/horizon-portfolio-01.png" alt="teddybear" />
                             </a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <a href="hot.html"><img src="img/3.jpg" alt="hot tourism" />
+                            <a href="hot"><img src="img/3.jpg" alt="hot tourism" />
                             </a>
                         </div>
                         <div id="resspace1" class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="margin-top: 30px;">
-                            <a href="lpl-group.html"><img src="img/5.jpg" alt="lpl" />
+                            <a href="lpl-group"><img src="img/5.jpg" alt="lpl" />
                             </a>
                         </div>
                         <div id="resspace2" class="p2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="margin-top: 25px;">
-                            <a href="ush.html"><img src="img/ush_port.jpg" alt="ush" />
+                            <a href="ush"><img src="img/ush_port.jpg" alt="ush" />
                             </a>
                         </div>
                     </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Horizon Drone</title>
+    <title>Utopia</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,31 +40,13 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<?php
+    include('navigation_bar.php');
+?>
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 <!-- Header, social media Section1 -->
 <header>
     <div class="top-header">
@@ -79,7 +61,7 @@
             </div>
             <div class="row section1">
                 <div class="col-md-6 col-xs-12 lpl-g-header">
-                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Horizon Drone</h1>
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Utopia</h1>
                 </div>  
                 <div class="col-md-6">
                     <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Cu sea sanctus petentium, sint aperiri molestiae at nec. Duo ex quando nemore habemus, duo verterem sensibus cu. Fabulas impedit mediocritatem per cu, vel decore tritani ea. Saperet oportere id mea. No has alterum senserit, mei an honestatis deterruisset. </p>
@@ -92,7 +74,7 @@
 
 <section class="section2 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-8">
-        <img src="img/horizon-portfolio-1-01.png" class="img-resonsive">
+        <img src="img/utopia-portfolio-1-01.png" class="img-resonsive">
     </div>
     <div class="col-md-4 texts2 row">
     <h1>Web design <br> and developement</h1>
@@ -108,14 +90,14 @@
         <p>Through this method we ensure that the app will effectively be utilized by its busy customers and served its intended purpose perfectly.</p>
     </div>
     <div class="col-md-6">
-        <img src="img/horizon-portfolio-m-01.png" class="img-resonsive">
+        <img src="img/utopia-portfolio-m-01.png" class="img-resonsive">
     </div>
 </section>
 
 
 <section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-12" style="padding: 40px 0px;">
-    <img src="img/horizon-portfolio-cards-01.png" style="width: 100%;">
+    <img src="img/utopia-portfolio-cards-01.png" style="width: 100%;">
     </div>
 </section>
 
@@ -125,7 +107,7 @@
         <p>Build an impeccable reputation. Our social analysts will help you communicate with your customers and everyone who interacts with your company through your website, e-mail, and social media. We will analyze your business and lead you through an effective marketing strategy to help you achieve your corporate goals.</p>
     </div>
     <div class="col-md-6" style="padding-top: 20px;">
-        <img src="img/horizon-portfolio-book-01.png" style="width: 100%;">
+        <img src="img/utopia-portfolio-book-01.png" style="width: 100%;">
     </div>
 </section>
 

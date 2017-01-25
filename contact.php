@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Tab Logo -->
-    <link rel="icon" href="img/es_logo.png">
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -30,31 +30,12 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
-
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+<?php
+    include('navigation_bar.php');
+?>
 
 <!-- Header, social media Section1 -->
 <header>
@@ -79,22 +60,21 @@
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
                         <img src="img/l_icon.png" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
-                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Al Sufouh, Dubai <br>
-                            United Arab Emirates<br>
-                            PO Box 123918-7701</span>
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Cluster Y, Swiss Tower,<br> 34th Floor, Office 15<br>
+Jumeirah Lake Towers, Dubai, UAE</span>
                         </div>
                     </div>  
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
                         <img src="img/c_icon.PNG" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
                             <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Tel : +372 (546) 05000 <br>
-                            Mob : +971 (050) 912 4567s</span>
+                            Mob : +971 (050) 912 4567</span>
                         </div>
                     </div>        
                     <div class="col-md-4 col-xs-12" style="padding: 30px 0px; ">
                         <img src="img/email.png" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="contact-text">
-                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">info@emiratesgraphics.com</span>
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">info@emiratesgraphic.com</span>
                         </div>
                     </div> 
                 </div>
@@ -110,7 +90,7 @@
 
 <div class="map_section mobile-d-n maps">
 
-<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.326468260487!2d55.14656531452797!3d25.090807842166896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b4555c8b989%3A0xdffe9bff0cbf2bbf!2sEmirates+Graphic!5e0!3m2!1sen!2sin!4v1464585655715" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.5938072185672!2d55.15317880112633!3d25.07670410623817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ca6c3b41b27%3A0x6e53cc34740737c1!2sSwiss+Tower+-+Dubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1483093009212" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <style type="text/css">
     .maps iframe{
     pointer-events: none;
@@ -149,35 +129,41 @@
                 <h4>REQUEST A <span>FREE QUOTE</span></h4>
                 <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
             </div>
-            <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                <input type="email" name="" placeholder="E-mail">
-            </div>
-            <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                <input type="text" name="" placeholder="Phone">
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                <input type="text" name="" placeholder="Company name">
-            </div>
-            <div class="col-md-6 col-xs-6 select-grid sm-padding" style="margin: 10px 0px;">
-                <div >
-                  <select required class="chose_service">
-                    <option value="1" class="option-s">Web Design</option>
-                    <option value="2" class="option-s">Branding</option>
-                    <option value="3" class="option-s">App Development</option>
-                    <option value="4" class="option-s">Digital Marketing</option>
-                    <option value="5" class="option-s">Film Making</option>
-                  </select>
+            <form id="em_contact">
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="n" type="email" name="em_email" placeholder="E-mail">
                 </div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input id="p" type="text" name="em_phone" placeholder="Phone">
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
+                    <input type="text" name="em_company" placeholder="Company name">
+                </div>
+                <div class="col-md-6 col-xs-6 select-grid sm-padding" style="margin: 10px 0px;">
+                    <div >
+                      <select required name="em_dropdown" class="chose_service">
+                        <option value="Web Design" class="option-s">Web Design</option>
+                        <option value="Branding" class="option-s">Branding</option>
+                        <option value="App Development" class="option-s">App Development</option>
+                        <option value="Digital Marketing" class="option-s">Digital Marketing</option>
+                        <option value="Film Making" class="option-s">Film Making</option>
+                      </select>
+                    </div>
 
-            </div>
-            <div class="col-md-12 col-xs-12 textarea-s sm-padding" style="margin: 10px 0px; ">
-                <textarea placeholder="help us understand what you need." rows="4"></textarea>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
-                <button>Submit</button>
-            </div>
+                </div>
+                <div class="col-md-12 col-xs-12 textarea-s sm-padding" style="margin: 10px 0px; ">
+                    <textarea name="em_description" placeholder="help us understand what you need." rows="4" name="message" id="m"></textarea>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
+                    <!-- <button type="submit" name="submit" value="Submit form" id="mybtn">Submit</button> -->
+                        <button class="btn btn-success has-spinner">
+                                <i id="spinerMail"></i>
+                                Submit
+                        </button>
+                </div>
+            </form>
         </div>
       </div>
     </div>
@@ -185,6 +171,33 @@
 </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/notify.js"></script>
+
+    <script type="text/javascript">
+        $("#em_contact").submit(function(e) {
+
+                var url = "mailer.php"; // the script where you handle the form input
+
+                $.ajax({
+                       type: "POST",
+                       url: url,
+                       data: $("#em_contact").serialize(), // serializes the form's elements.
+                       beforeSend: function()
+                       {
+                            $("#spinerMail").addClass("fa fa-spinner fa-spin");
+                       },   
+                       complete: function(data)
+                        {
+                            $.notify(data.responseText, "success");
+                            $("#spinerMail").removeClass("fa fa-spinner fa-spin");
+                        }
+
+                     });
+
+                e.preventDefault(); // avoid to execute the actual submit of the form.
+            });
+
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -196,24 +209,19 @@
 
 <!-- Navigationbar Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/velocity.min.js"></script>  
+    <script type="text/javascript" src="js/velocity.min.js"></script>      
 
 <!-- Animation CSS -->
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
-
-<script type="text/javascript">
-        $('.maps').click(function () {
-            $('.maps iframe').css("pointer-events", "auto");
-        });
-
-        $( ".maps" ).mouseleave(function() {
-          $('.maps iframe').css("pointer-events", "none"); 
-        });
-
-</script>
+    <script>    $('.maps').click(function () {
+    $('.maps iframe').css("pointer-events", "auto");
+    });
     
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none"); 
+    });</script>
 </body>
 </html>

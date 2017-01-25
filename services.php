@@ -11,8 +11,8 @@
 
     <title>Web & App Development Services in Dubai | Emirates Graphic</title>
     <meta name="Emirates Graphic is a leading Web & Mobile Apps development service provider with an expert team of App Designers & Developers in Dubai.  Consult us for a Demo." />
-<!-- Tab Logo -->
-    <link rel="icon" href="img/es_logo.png">
+
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
     
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,49 +25,29 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
-<!--Google analytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88061472-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+    
+        <!--GOOGLE ANALYTICS-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-88061472-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+    
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
-
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
-
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
-
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+<!-- Navigationbar  -->
 
 
+<?php
+    include('navigation_bar.php');
+?>
 
 <!-- Left Navigationbar Dots. -->
 

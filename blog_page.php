@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Tab Logo -->
-    <link rel="icon" href="img/es_logo.png">
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -24,47 +24,30 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">    
-<!--Google analytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88061472-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    
+        <!--GOOGLE ANALYTICS-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-88061472-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+    
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
-
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+<?php
+    include('navigation_bar.php');
+?>
 
 
 <!-- Header social media Section1 -->
@@ -104,7 +87,7 @@
                         <h5>5 Millionare...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Long gone are the days when wealthy and successful individuals held traditional, high-paying, 9-5 jobs. ...</p>
-                        <a href="blog/5millionare.html"><button>READ MORE</button></a>
+                        <a href="blog/5millionare"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -122,7 +105,7 @@
                         <h5>14 Things...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Having close access to ultra-successful people can yield some pretty incredible information about who they ...</p>
-                        <a href="blog/14things.html"><button>READ MORE</button></a>
+                        <a href="blog/14things"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -140,7 +123,7 @@
                         <h5>6 Success...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Building a startup is tricky business. I have started several, and have had <br>some winners ... </p>
-                        <a href="blog/6success.html"><button>READ MORE</button></a>
+                        <a href="blog/6success"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -159,7 +142,7 @@
                         <h5>7 Canadian...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Attend our free webinar July 12 and discover SEO, social media and content<br> tactics to ...</p>
-                        <a href="blog/7canadian.html"><button>READ MORE</button></a>
+                        <a href="blog/7canadian"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -177,7 +160,7 @@
                         <h5>6 Tips</h5>
                         <img src="img/blog/line_blg.png">
                         <p>The entrepreneurial journey is ripe with experiences that make you uncomfortable and, at times, even ...</p>
-                        <a href="blog/5millionare.html"><button>READ MORE</button></a>
+                        <a href="blog/5millionare"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -195,7 +178,7 @@
                         <h5>Entrepreneurs</h5>
                         <img src="img/blog/line_blg.png">
                         <p> know I’m not the first to label our forefathers as among our first <br>entrepreneurs. ...</p>
-                        <a href="blog/enterpreneus.html"><button>READ MORE</button></a>
+                        <a href="blog/enterpreneus"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -214,7 +197,7 @@
                         <h5>7 Failures</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Failure is a part of life, especially for entrepreneurs. Most new businesses fail within the ...</p>
-                        <a href="blog/7failures.html"><button>READ MORE</button></a>
+                        <a href="blog/7failures"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -232,7 +215,7 @@
                         <h5>3 Steps...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>How do you convince someone you’ve never met to trust you? How do <br>you prove ...</p>
-                        <a href="blog/3steps.html"><button>READ MORE</button></a>
+                        <a href="blog/3steps"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -250,7 +233,7 @@
                         <h5>How Entrepreneurial...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Being an entrepreneur isn’t easy: Your path is filled with ups and downs, <br>existential crises, ...</p>
-                        <a href="blog/entrepreneurial.html"><button>READ MORE</button></a>
+                        <a href="blog/entrepreneurial"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -268,7 +251,7 @@
                         <h5>5 Ways...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>From the time we hit adolescence (and maybe even earlier), we live our <br>lives caring ...</p>
-                        <a href="blog/5ways.html"><button>READ MORE</button></a>
+                        <a href="blog/5ways"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -286,7 +269,7 @@
                         <h5>About Entrepreneurship...</h5>
                         <img src="img/blog/line_blg.png">
                         <p>Do young people view entrepreneurship as a viable career option? Not according<br> to a recent ...</p>
-                        <a href="blog/enterpreneurship.html"><button>READ MORE</button></a>
+                        <a href="blog/enterpreneurship"><button>READ MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -318,7 +301,7 @@
                         <img src="img/blog/20160601182105-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/5millionare.html">5 Millionaire...</a></p>
+                        <p><a href="blog/5millionare">5 Millionaire...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -329,7 +312,7 @@
                         <img src="img/blog/20160513153214-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/14things.html">14 Things...</a></p>
+                        <p><a href="blog/14things">14 Things...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -340,7 +323,7 @@
                         <img src="img/blog/20160308074745-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/6success.html">6 Success...</a></p>
+                        <p><a href="blog/6success">6 Success...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -351,7 +334,7 @@
                         <img src="img/blog/20160701173050-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/7canadian.html">7 Canadian...</a></p>
+                        <p><a href="blog/7canadian">7 Canadian...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -362,7 +345,7 @@
                         <img src="img/blog/20151023160847-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/6tips.html">6 Tips</a></p>
+                        <p><a href="blog/6tips">6 Tips</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -373,7 +356,7 @@
                         <img src="img/blog/1404395683-604x270.jpg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/enterpreneus.html">Entrepreneurs</a></p>
+                        <p><a href="blog/enterpreneus">Entrepreneurs</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -384,7 +367,7 @@
                         <img src="img/blog/1402685154-604x270.jpg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/7failures.html">7 Failures</a></p>
+                        <p><a href="blog/7failures">7 Failures</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -395,7 +378,7 @@
                         <img src="img/blog/20160409193052-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/3steps.html">3 Steps...</a></p>
+                        <p><a href="blog/3steps">3 Steps...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -406,7 +389,7 @@
                         <img src="img/blog/20160621135557-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/entrepreneurial.html">How Entrepreneurial...</a></p>
+                        <p><a href="blog/entrepreneurial">How Entrepreneurial...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -417,7 +400,7 @@
                         <img src="img/blog/20151112140756-604x270.jpeg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/5ways.html">5 Ways...</a></p>
+                        <p><a href="blog/5ways">5 Ways...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -428,7 +411,7 @@
                         <img src="img/blog/1410558701-604x270.jpg">
                     </div>
                     <div class="col-md-8">
-                        <p><a href="blog/enterpreneurship.html">About Entrepreneurship...</a></p>
+                        <p><a href="blog/enterpreneurship">About Entrepreneurship...</a></p>
                         <span>July J 2016</span>
                     </div> 
                 </div>
@@ -470,7 +453,6 @@
     <script>
         new WOW().init();
     </script>
-
 </body>
 </body>
 </html>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Utopia</title>
+    <title>Emirates Graphics</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/lpl-group.css">
+    <link rel="stylesheet" type="text/css" href="css/glamour.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Animate.css -->
@@ -40,31 +40,13 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<?php
+    include('navigation_bar.php');
+?>
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 <!-- Header, social media Section1 -->
 <header>
     <div class="top-header">
@@ -78,11 +60,11 @@
                 </div>
             </div>
             <div class="row section1">
-                <div class="col-md-6 col-xs-12 lpl-g-header">
-                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Utopia</h1>
+                <div class="col-md-6">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Glamour project</h1>
                 </div>  
                 <div class="col-md-6">
-                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Cu sea sanctus petentium, sint aperiri molestiae at nec. Duo ex quando nemore habemus, duo verterem sensibus cu. Fabulas impedit mediocritatem per cu, vel decore tritani ea. Saperet oportere id mea. No has alterum senserit, mei an honestatis deterruisset. </p>
+                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Glamour Beauty Salon is a well-established beauty salon with well over 15 years of experience. They are currently located in Dubai Marina and Discovery Gardens. The Glamour Beauty Salon staff takes pride in providing the best in-home beauty care service in the city! </p>
                 </div>      
             </div>
         </div>
@@ -92,43 +74,81 @@
 
 <section class="section2 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-8">
-        <img src="img/utopia-portfolio-1-01.png" class="img-resonsive">
+        <img src="img/glamour1.jpg" class="img-resonsive">
     </div>
     <div class="col-md-4 texts2 row">
     <h1>Web design <br> and developement</h1>
-        <p style="margin: 10px 0px; ">The base concept for our LPL Group website design, was the creative idea of showing the embodiment of the LPL Group role and how their companies work together as one. We wanted the website to be timely, and have a story clear behind it.</p>
-        <p style="margin: 10px 0px; ">The website had to be exceptionally professional to characterize their corporate role and through our team work and creative process we were able to present a finished website that we were all very proud of.</p>
+        <p style="margin: 10px 0px; ">Our design process for the Glamour Beauty Salon website took into account the true essence of the passion the Glamour Beauty Salon staff exhibits. We analyzed the most important aspect of their in-home customer service and translated those traits onto to a spectacular mobile-friendly website.</p>
+        <p style="margin: 10px 0px; ">We made sure to feature all the services they provide effectively and made the Dubai salon’s online presence serve as an incredibly useful marketing tool and client retention incentive.</p>
     </div>
 </section>
 
 <section class="section3 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <div class="col-md-6 texts2 row">
+    <div class="col-md-6 texts2 row" style="padding: 120px 30px;">
     <h1>App design <br> and developement</h1>
-        <p>Our team of developers were able to create a very intuitive and easy to use app for LPL Group. We started by designing a very modern and professional mock up, which we tested for customer satisfaction before proceeding to its’ full development.</p>
-        <p>Through this method we ensure that the app will effectively be utilized by its busy customers and served its intended purpose perfectly.</p>
+        <p>For the Getfit app creation we started by designing a very modern and intuitive mock up, which we tested for customer satisfaction before proceeding to its’ full development.</p>
+        <p>Through this method we ensure that the app will effectively be utilized by its busy customers. The software we developed for Getfit Dubai was also tested to maximise its’ success and operational functions.</p>
     </div>
     <div class="col-md-6">
-        <img src="img/utopia-portfolio-m-01.png" class="img-resonsive">
+        <img src="img/glamour_phone.png" class="img-resonsive">
     </div>
 </section>
 
 
 <section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-12" style="padding: 40px 0px;">
-    <img src="img/utopia-portfolio-cards-01.png" style="width: 100%;">
+    <img src="img/glamour_newimg-1.png" style="width: 100%;">
     </div>
 </section>
 
 <section class="section5 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-    <div class="col-md-6 texts2">
+    <div class="col-md-6" >
         <h1>Solidify your online presence with strategic branding!</h1>
-        <p>Build an impeccable reputation. Our social analysts will help you communicate with your customers and everyone who interacts with your company through your website, e-mail, and social media. We will analyze your business and lead you through an effective marketing strategy to help you achieve your corporate goals.</p>
     </div>
     <div class="col-md-6" style="padding-top: 20px;">
-        <img src="img/utopia-portfolio-book-01.png" style="width: 100%;">
+        <p>Build an impeccable reputation. Our social analysts will help you communicate with your customers and everyone who interacts with your company through your website, e-mail, and social media. We will analyze your business and lead you through an effective marketing strategy to help you achieve your corporate goals.</p>
     </div>
 </section>
 
+<section class="section3 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" style="padding-top: 20px;">
+    <div class="col-md-8 texts2 row" style="padding: 120px 30px;">
+    <h1>App design <br> and developement</h1>
+        <p>For the Getfit app creation we started by designing a very modern and intuitive mock up, which we tested for customer satisfaction before proceeding to its’ full development.</p>
+        <p>Through this method we ensure that the app will effectively be utilized by its busy customers. The software we developed for Getfit Dubai was also tested to maximise its’ success and operational functions.</p>
+    </div>
+    <div class="col-md-4">
+        <img src="img/g_m.png" class="img-resonsive">
+    </div>
+</section>
+
+<section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="col-md-12" style="padding: 40px 0px;">
+    <img src="img/glamour_newimg_2-1.png" style="width: 100%;">
+    </div>
+</section>
+
+
+
+
+<section class="section7 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="col-md-6">
+        <h1>Stand out. Get your branded email</h1>
+    </div>
+    <div class="col-md-6" style="padding-top: 20px;">
+        <p>A branded email shows the world your company is established and professional. When you have a branded email address along with a creative email template, you’re providing a priceless sense of security and reassurance to your customers that your business is legitimate.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-md-6">
+            <img src="img/glamour1-1.jpg" style="width: 100%;">
+        </div>
+        <div class="col-md-6">
+            <img src="img/glamour2.jpg" style="width: 100%;">
+        </div>
+    </div>
+</section>
 
 <div class="clearfix"></div>
 

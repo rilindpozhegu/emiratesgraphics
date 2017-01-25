@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Lpl Group</title>
+    <title>H.O.T Tourism</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/ush.css">
+    <link rel="stylesheet" type="text/css" href="css/hot.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Animate.css -->
@@ -34,37 +34,19 @@
   ga('create', 'UA-88061472-1', 'auto');
   ga('send', 'pageview');
 
-</script>    
+</script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<?php
+    include('navigation_bar.php');
+?>
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 <!-- Header, social media Section1 -->
 <header>
     <div class="top-header">
@@ -78,11 +60,11 @@
                 </div>
             </div>
             <div class="row section1">
-                <div class="col-md-6 col-xs-12 lpl-g-header">
-                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">USH healthcare</h1>
+                <div class="col-md-6">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">H.O.T Tourism</h1>
                 </div>  
                 <div class="col-md-6">
-                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Created by entrepreneur and CEO, Ludovic Paco Loffreda, in 2008, LPL Group developed and adapted to the continuously changing Emirati market environment. Success, avant-gardism and leadership are the main values of this holding, managing 13 of interconnected companies located all over the Gulf region.</p>
+                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Cu sea sanctus petentium, sint aperiri molestiae at nec. Duo ex quando nemore habemus, duo verterem sensibus cu. Fabulas impedit mediocri tatem per cu, vel decore tritani ea. Saperet oportere id mea. No has alter um senserit, mei an honestatis deterruisset. </p>
                 </div>      
             </div>
         </div>
@@ -92,30 +74,30 @@
 
 <section class="section2 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-8">
-        <img src="img/websitedesign.jpg" class="img-resonsive">
+        <img src="img/hot1.jpg" class="img-resonsive">
     </div>
     <div class="col-md-4 texts2 row">
     <h1>Web design <br> and developement</h1>
-        <p style="margin: 10px 0px; ">When designing the USH Healthcare website we took into consideration the importance of this innovative product. Our team of professional designers created a modern, unique and intuitive world-class website.</p>
-        <p style="margin: 10px 0px; ">We created the website theme for USH Healthcare by analysing its clients and users. We had to foresee their needs and design a website that could sustain their market demand. We made sure to create distinguished online presence.</p>
+        <p style="margin: 10px 0px; ">The design process we used when creating the Getfit Dubai website started with analysing the user’s needs. The website was made to reflect the company’s values and passion so we took into account the true essence of this innovative platform.</p>
+        <p style="margin: 10px 0px; ">The theme we created for Getfit Dubai emerged from the very essence of their company’s purpose; to promote healthy habits in their community and the undoubtable benefits of continuous physical activity.</p>
     </div>
 </section>
 
 <section class="section3 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-6 texts2 row">
     <h1>App design <br> and developement</h1>
-        <p>The USH Healthcare app was made to answer its remarkable worldwide demand. Our team of developers had to make the app modern and intuitive mock up since one of its main purposes was to keep all their customers up to speed and well informed.</p>
-        <p>Through this method we ensure that the app will effectively be utilized by its busy customers. The software we developed for USH Healthcare was also tested to maximise its’ success and operational functions.</p>
+        <p>For the Getfit app creation we started by designing a very modern and intuitive mock up, which we tested for customer satisfaction before proceeding to its’ full development.</p>
+        <p>Through this method we ensure that the app will effectively be utilized by its busy customers. The software we developed for Getfit Dubai was also tested to maximise its’ success and operational functions.</p>
     </div>
     <div class="col-md-6">
-        <img src="img/ush_phone-3.png" class="img-resonsive">
+        <img src="img/hot_phone.png" class="img-resonsive">
     </div>
 </section>
 
 
 <section class="section4 container-fluid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="col-md-12" style="padding: 40px 0px;">
-    <img src="img/ush_newimg.png" style="width: 100%;">
+    <img src="img/hot_newimg-1.png" style="width: 100%;">
     </div>
 </section>
 
@@ -123,23 +105,46 @@
     <div class="col-md-6">
         <h1>Solidify your online presence with strategic branding!</h1>
     </div>
-    <div class="col-md-6 texts2" style="padding-top: 20px;">
+    <div class="col-md-6" style="padding-top: 20px;">
         <p>Build an impeccable reputation. Our social analysts will help you communicate with your customers and everyone who interacts with your company through your website, e-mail, and social media. We will analyze your business and lead you through an effective marketing strategy to help you achieve your corporate goals.</p>
     </div>
 </section>
 
 <section class="section6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" style="padding: 40px 0px;">
     <div class="container">
-        <div class="col-md-6">
-            <img src="img/ush1-1.jpg" style="width: 100%;">
-        </div>
-        <div class="col-md-6">
-            <img src="img/ush2.jpg" style="width: 100%;">
+        <div class="col-md-12">
+            <img src="img/hot4.png" style="width: 100%;">
         </div>
     </div>
 </section>
 
 
+<section class="section7 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="col-md-6">
+        <h1>Engage with your audience!</h1>
+    </div>
+    <div class="col-md-6" style="padding-top: 20px;">
+        <p>A branded email shows the world your company is established and professional. When you have a branded email address along with a creative email template, you’re providing a priceless sense of security and reassurance to your customers that your business is legitimate.</p>
+    </div>
+</section>
+
+<section class="section6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" style="padding: 40px 0px;">
+    <div class="container">
+        <div class="col-md-12">
+            <img src="img/hot5.png" style="width: 100%;">
+        </div>
+    </div>
+</section>
+
+
+<section class="section7 container wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="col-md-6">
+        <h1>Target your audience!</h1>
+    </div>
+    <div class="col-md-6" style="padding-top: 20px;">
+        <p>A branded email shows the world your company is established and professional. When you have a branded email address along with a creative email template, you’re providing a priceless sense of security and reassurance to your customers that your business is legitimate.</p>
+    </div>
+</section>
 
 <div class="clearfix"></div>
 
@@ -162,10 +167,9 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
-
 <!-- Navigationbar Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/velocity.min.js"></script>    
+    <script type="text/javascript" src="js/velocity.min.js"></script>
 
 <!-- Animation CSS -->
     <script src="js/wow.js"></script>

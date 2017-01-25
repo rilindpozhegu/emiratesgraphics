@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+<!-- Tab Logo -->
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
+    
     <title>Cutting Edge Digital Marketing Agency Dubai - Emirates Graphic</title>
     <meta name="description" content="Emirates Graphic is one of the leading Digital Agency delivering all types of Digital Marketing, Branding & Development services in Dubai." />
-    <link rel="icon" href="img/es_icon.png">
-    <link rel="shortcut icon" href="img/es_icon.png">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/quote-modal.css">
-    <link rel="stylesheet" type="text/css" href="css/preloader.css"><!--preloader style here! -->
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
     <!-- Scroll down button Style -->
     <link rel="stylesheet" type="text/css" href="css/scroll-down-b.css">
@@ -50,36 +51,19 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Preloader -->
-<!--     <div id="overlay">
+
+    <!--<div id="overlay">
         <img src="img/logo1.png" >
-    </div> -->
-
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYWRITING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
-
+    </div>-->
     
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<!-- Navigationbar  -->
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+
+<?php
+    include('navigation_bar.php');
+?>
+
 
 <!-- Header social media Section1 -->
 <header>
@@ -145,8 +129,7 @@
                 <div class="col-lg-12 our-mis_section">
                     <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">OUR MISSION</h1>
                     <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay=".7s">At Emirates Graphic we love to challenge the conventional and we won’t hesitate to push boundaries in order to fulﬁl your vision. Our carefully crafted team of professionals is passionate about helping clients communicate and resonate with their audience using creative, innovative and intelligent problem solving. By implementing eﬀective branding strategies tailored to your needs, our mission is to always produce an end product that successfully tells your story.</p>
-                    <!-- <button type="button text-center" class=" wow fadeInUp" data-toggle="modal" data-target="#rilind"  data-wow-duration="2s" data-wow-delay=".5s">SEE MORE</button> -->
-                     <button type="button" class="modalButton1" data-toggle="modal" data-src="https://www.youtube.com/embed/ry0ctbJ_kR4" data-width="640" data-height="360" data-target="#myModal1" data-video-fullscreen="">SEE MORE</button>
+                    <button type="button" class="modalButton1" data-toggle="modal" data-src="https://www.youtube.com/embed/ry0ctbJ_kR4" data-width="640" data-height="360" data-target="#myModal1" data-video-fullscreen="">SEE MORE</button>
                 </div>
             </div>
         </div>
@@ -254,7 +237,7 @@
 
 
     <!-- Testimonials Section for Desktop -->
-      <div id="demo" class=" wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+      <div id="demo" class=" wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="container">
           <div class="row">
             <div class="span12">
@@ -528,6 +511,8 @@
     </script>
 
 
+
+
 <!-- Testimonial new slider -->
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript">
@@ -581,8 +566,6 @@
     });
     </script>
 
-
-<!-- Preloader Script -->
 <script type="text/javascript">
         var overlay = 
     document.getElementById("overlay");

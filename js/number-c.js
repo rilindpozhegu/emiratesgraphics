@@ -3,7 +3,7 @@
 
   $('#target').animateNumber(
     {
-      number: 506 * decimal_factor,
+      number: 278 * decimal_factor,
       numberStep: function(now, tween) {
         var floored_number = Math.floor(now) / decimal_factor,
             target = $(tween.elem);

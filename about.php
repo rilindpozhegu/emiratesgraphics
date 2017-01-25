@@ -12,7 +12,7 @@
     <title>Trusted Internet Marketing & Web Development Company in Dubai</title>
     <meta name="We at Emirates Graphic provides solutions for Digital Marketing, Branding, Web & Mobile App development with a common vision towards to reaching the best result and satisfying customers." />
 <!-- Tab Logo -->
-    <link rel="icon" href="img/es_logo.png">
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
     
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
     
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
-
+    
     <!--GOOGLE ANALYTICS-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,31 +45,13 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
+<?php
+    include('navigation_bar.php');
+?>
 
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
 <!-- Header, social media Section1 -->
 <header>
     <div class="top-header mobile-d-n">
@@ -297,7 +279,6 @@
     <script>
         new WOW().init();
     </script>
-
 </body>
 </body>
 </html>

@@ -93,7 +93,7 @@ jQuery(document).ready(function($){
   
 function iframeModalOpen(){
 
-		// impostiamo gli attributi da aggiungere all'iframe es: data-src andrà ad impostare l'url dell'iframe
+    	// impostiamo gli attributi da aggiungere all'iframe es: data-src andrà ad impostare l'url dell'iframe
 		$('.modalButton1').on('click', function(e) {
 			var src = $(this).attr('data-src');
 			var width = $(this).attr('data-width') || 640; // larghezza dell'iframe se non impostato usa 640

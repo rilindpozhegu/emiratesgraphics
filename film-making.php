@@ -16,6 +16,10 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
+<!-- Tab Logo -->
+    <link rel="icon" href="img/emirates-transparent-logo-01.png">
+    
 <!-- Tab Logo -->
     <link rel="icon" href="img/es_logo.png">
     
@@ -34,47 +38,30 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">    
-<!--Google analytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88061472-1', 'auto');
-  ga('send', 'pageview');
-
-</script>    
+    
+        <!--GOOGLE ANALYTICS-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-88061472-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+    
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
-<!-- Sidebar Code Section  -->
-    <nav>
-        <ul class="cd-primary-nav">
-            <li><a href="http://emiratesgraphic.com" class="link">HOME</a></li>
-            <li><a href="about.html" class="link">ABOUT</a></li>
-            <li><a href="services.html" class="link">SERVICES</a></li>
-            <li><a href="marketing.html" class="link">MARKETING</a></li>
-            <li><a href="film-making.html" class="link">FILM MAKING</a></li>
-            <li><a href="portfolio.html" class="link">PORTFOLIO</a></li>
-            <li><a href="blog.html" class="link">BLOG</a></li>
-            <li><a href="copyright.html" class="link">COPYRIGHTING</a></li>
-            <li><a href="contact.html" class="link">CONTACT US</a></li>
-        </ul>
-    </nav>
+<!-- Navigationbar  -->
 
-    
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div> <!-- cd-overlay-nav -->
 
-    <div class="cd-overlay-content">
-        <span></span>
-    </div> <!-- cd-overlay-content -->
-
-    <a href="#0" class="cd-nav-trigger wow fadeInLeft"  class="" data-wow-duration="1s" data-wow-delay=".5s">Menu<span class="cd-icon"></span></a>
+<?php
+    include('navigation_bar.php');
+?>
 
 
 <!-- Header social media Section1 -->
@@ -310,36 +297,39 @@
                 <h4>REQUEST A <span>FREE QUOTE</span></h4>
                 <p>At Emirates Graphic we love to challenge the conventional and we won't hesitate to push boundaries in order to  fulfil your version.</p>
             </div>
-            <form id="my_form" onsubmit="submitForm(); return false;">
+            <form id="em_film">
                 <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                    <input id="n" type="email" name="first_name" placeholder="E-mail" required>
+                    <input id="n" type="email" name="em_email" placeholder="E-mail">
                 </div>
                 <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                    <input id="p" type="text" name="phone_nr" placeholder="Phone">
+                    <input id="p" type="text" name="em_phone" placeholder="Phone">
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-6 col-xs-6 sm-padding" style="margin: 10px 0px;">
-                    <input type="text" name="company_name" placeholder="Company name">
+                    <input type="text" name="em_company" placeholder="Company name">
                 </div>
                 <div class="col-md-6 col-xs-6 select-grid sm-padding" style="margin: 10px 0px;">
                     <div >
-                      <select required class="chose_service">
-                        <option value="1" class="option-s">Web Design</option>
-                        <option value="2" class="option-s">Branding</option>
-                        <option value="3" class="option-s">App Development</option>
-                        <option value="4" class="option-s">Digital Marketing</option>
-                        <option value="5" class="option-s">Film Making</option>
+                      <select required name="em_dropdown" class="chose_service">
+                        <option value="Web Design" class="option-s">Web Design</option>
+                        <option value="Branding" class="option-s">Branding</option>
+                        <option value="App Development" class="option-s">App Development</option>
+                        <option value="Digital Marketing" class="option-s">Digital Marketing</option>
+                        <option value="Film Making" class="option-s">Film Making</option>
                       </select>
                     </div>
 
                 </div>
                 <div class="col-md-12 col-xs-12 textarea-s sm-padding" style="margin: 10px 0px; ">
-                    <textarea placeholder="help us understand what you need." rows="4" name="message" id="m"></textarea>
+                    <textarea name="em_description" placeholder="help us understand what you need." rows="4" name="message" id="m"></textarea>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-12" class="modal_button" style="padding-top: 15px; padding-left: 0px;">
                     <!-- <button type="submit" name="submit" value="Submit form" id="mybtn">Submit</button> -->
-                    <input type="submit" name="submit" value="Submit form" id="mybtn" class="submit_btn"><span id="status"></span></input>
+                        <button class="btn btn-success has-spinner">
+                                <i id="spinerMail"></i>
+                                Submit
+                        </button>
                 </div>
             </form>
         </div>
@@ -347,36 +337,41 @@
     </div>
   </div>
 </div>
-<script type="text/javascript">
-    function _(id) { return document.getElementById (id); }
-    function submitForm () {
-        _("mybtn").disabled = true;
-        _("status").innerHTML = 'please wait ...';
-        var formdata = new FormData ();
-        formdata.append( "n", _("n").value );
-        formdata.append( "e", _("e").value );
-        formdata.append( "m", _("m").value );
-        var ajax = new XMLHttpRequest ();
-        ajax.open( "POST", "sent_email.php" );
-        ajax.onreadystatechange = function () {
-            if (ajax.readyState == 4 && ajax.status == 200) {
-                if (ajax.respnseText == "success") {
-                    _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>'; 
-                } else {
-                    _("status").innerHTML = ajax.responseText;
-                    _("mybtn").disabled = false;
-                }
-            }
-        }
-        ajax.send( formdata );
-    }
-</script>
+
 
 
 
 
     <!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/notify.js"></script>
+
+    <script type="text/javascript">
+        $("#em_film").submit(function(e) {
+
+                var url = "mailer.php"; // the script where you handle the form input
+
+                $.ajax({
+                       type: "POST",
+                       url: url,
+                       data: $("#em_film").serialize(), // serializes the form's elements.
+                       beforeSend: function()
+                       {
+                            $("#spinerMail").addClass("fa fa-spinner fa-spin");
+                       },   
+                       complete: function(data)
+                        {
+                            $.notify(data.responseText, "success");
+                            $("#spinerMail").removeClass("fa fa-spinner fa-spin");
+                        }
+
+                     });
+
+                e.preventDefault(); // avoid to execute the actual submit of the form.
+            });
+
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

@@ -149,6 +149,55 @@
 .home-header button:hover {
 	background-color: rgba(255, 255, 255, 0.38);
 }
+
+
+/*
+**----OUR MISSION Section 2----**
+*/
+
+.our-mis_section {
+	padding: 40px 0px;
+}
+
+.our-mis_section h1 {
+	color: #e50011;
+    font-size: 50px;
+    font-family: 'Montserrat-Bold';
+    text-align: left;
+    text-transform: uppercase;
+}
+.our-mis_section p {
+	font-size: 20px;
+    color: #000000;
+    font-family: 'Montserrat-Regular';
+    line-height: 32px;
+}
+
+.our-mis_section button {
+    border: 3px solid #e50011;
+    padding: 7px 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: transparent;
+    color: #e50011;
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out 0s;
+}
+.our-mis_section button:hover {
+	transition: ease all 0.5s;
+	color:white;
+	background-color: #e50011;
+}
+.our-mis_section button:active {
+	outline: none;
+}
+.our-mis_section button:focus {
+	outline: none;
+}
+/*
+**----OUR MISSION Section 2----**
+*/
 /* ---------------- */
 /*    Popup Video   */
 /* ---------------- */
@@ -200,53 +249,6 @@
   width: 60%;
 }
 
-/*
-**----OUR MISSION Section 2----**
-*/
-
-.our-mis_section {
-	padding: 40px 0px;
-}
-
-.our-mis_section h1 {
-	color: #e50011;
-    font-size: 50px;
-    font-family: 'Montserrat-Bold';
-    text-align: left;
-    text-transform: uppercase;
-}
-.our-mis_section p {
-	font-size: 20px;
-    color: #000000;
-    font-family: 'Montserrat-Regular';
-    line-height: 32px;
-}
-
-.our-mis_section button {
-    border: 3px solid #e50011;
-    padding: 7px 20px;
-    text-align: center;
-    margin-top: 25px;
-    background-color: transparent;
-    color: #e50011;
-    font-family: 'Montserrat-Bold';
-    font-weight: bolder;
-    transition: all 0.5s ease-in-out 0s;
-}
-.our-mis_section button:hover {
-	transition: ease all 0.5s;
-	color:white;
-	background-color: #e50011;
-}
-.our-mis_section button:active {
-	outline: none;
-}
-.our-mis_section button:focus {
-	outline: none;
-}
-/*
-**----OUR MISSION Section 2----**
-*/
 .home-section3 {
 	text-align: center;
     background-image: url('../img/E_bg1.jpg');
