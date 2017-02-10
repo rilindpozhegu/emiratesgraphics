@@ -129,7 +129,7 @@
                 <div class="col-lg-12 our-mis_section">
                     <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">OUR MISSION</h1>
                     <p class="wow fadeInRight" data-wow-duration="2s" data-wow-delay=".7s">At Emirates Graphic we love to challenge the conventional and we won’t hesitate to push boundaries in order to fulﬁl your vision. Our carefully crafted team of professionals is passionate about helping clients communicate and resonate with their audience using creative, innovative and intelligent problem solving. By implementing eﬀective branding strategies tailored to your needs, our mission is to always produce an end product that successfully tells your story.</p>
-                    <button type="button" class="modalButton1" data-toggle="modal" data-src="https://www.youtube.com/embed/ry0ctbJ_kR4" data-width="640" data-height="360" data-target="#myModal1" data-video-fullscreen="">SEE MORE</button>
+                    <button type="button" class="modalButton1 wow fadeInRight" data-wow-duration="2s" data-wow-delay=".7s" data-toggle="modal" data-src="https://www.youtube.com/embed/ry0ctbJ_kR4" data-width="640" data-height="360" data-target="#myModal1" data-video-fullscreen="">SEE MORE</button>
                 </div>
             </div>
         </div>
